@@ -23,7 +23,7 @@
     es: {
       skip: "Ir al contenido", home: "Inicio", products: "Productos", about: "Quiénes somos", clients: "Clientes", blog: "Blog", support: "Contáctanos",
       advice: "Asesoría especializada", adviceText: "para elegir el equipo correcto.", technical: "Soporte técnico", technicalText: "antes y después de la implementación.", coverage: "Cobertura nacional", coverageText: "",
-      footerText: "Empresa especializada en sistemas de marcación y codificación con sede en Ecuador, operamos en varios países de Latinoamérica.", contactUs: "Contáctanos", printers: "Codificadoras", inks: "Tintas", accessories: "Accesorios", contact: "Contacto",
+      footerText: "Empresa especializada en sistemas de marcación y codificación con sede en Ecuador, operamos en varios países de Latinoamérica.", contactUs: "Contáctanos", printers: "Codificadoras", inks: "Tintas", accessories: "Accesorios", contact: "Contacto", legalNav: "Información legal", cookiesPolicy: "Política de cookies", privacyPolicy: "Política de privacidad", refundsPolicy: "Política de devoluciones y reembolsos",
       heroAlt: ["Soluciones Rigel para codificación industrial", "Codificación portátil sobre diferentes superficies", "Equipos Rigel para líneas de producción"],
       heroEyebrow: "MARCAJE Y CODIFICACIÓN", heroTitle: "Soluciones que avanzan al ritmo de tu producción", heroText: "Equipos portátiles, automáticos e industriales para imprimir fechas, lotes, códigos, textos y logotipos sobre múltiples superficies.", seeProducts: "Ver productos", quote: "Cotiza con nosotros",
       applicationsEyebrow: "UNA SOLUCIÓN PARA CADA PROCESO", applicationsTitle: "Del marcaje manual a la línea automatizada", applicationsText: "Selecciona la solución según la superficie, el ritmo de producción y el nivel de automatización de tu proceso.",
@@ -42,7 +42,7 @@
     en: {
       skip: "Skip to content", home: "Home", products: "Products", about: "About us", clients: "Clients", blog: "Blog", support: "Contact us",
       advice: "Specialized guidance", adviceText: "to choose the right equipment.", technical: "Technical support", technicalText: "before and after implementation.", coverage: "National coverage", coverageText: "",
-      footerText: "Company specialized in marking and coding systems, headquartered in Ecuador and operating in several Latin American countries.", contactUs: "Contact us", printers: "Coding printers", inks: "Inks", accessories: "Accessories", contact: "Contact",
+      footerText: "Company specialized in marking and coding systems, headquartered in Ecuador and operating in several Latin American countries.", contactUs: "Contact us", printers: "Coding printers", inks: "Inks", accessories: "Accessories", contact: "Contact", legalNav: "Legal information", cookiesPolicy: "Cookie policy", privacyPolicy: "Privacy policy", refundsPolicy: "Returns and refunds policy",
       heroAlt: ["Rigel industrial coding solutions", "Handheld coding on different materials", "Rigel equipment for production lines"],
       heroEyebrow: "MARKING & CODING", heroTitle: "Solutions that keep pace with your production", heroText: "Handheld, automatic and industrial equipment for dates, batches, codes, text and logos on multiple materials.", seeProducts: "View products", quote: "Request a quote",
       applicationsEyebrow: "A SOLUTION FOR EVERY PROCESS", applicationsTitle: "From handheld marking to automated lines", applicationsText: "Choose the right solution for your material, production pace and level of process automation.",
@@ -57,6 +57,104 @@
       countries: "Countries", address: "Address", phoneLabel: "Phone", emailLabel: "Email", hoursLabel: "Hours", websiteLabel: "Website", whatsappCountry: "WhatsApp",
       contactEyebrow: "CONTACT", contactTitle: "Let’s talk about your coding process", contactText: "Get guidance to choose a model, confirm compatibility or solve a technical question.", personalized: "PERSONALIZED ASSISTANCE", supportTitle: "Rigel assistance", supportText: "Describe the product, material and information you need to print. You can also include your approximate production volume.", email: "Email", channel: "Channel", name: "Full name", message: "How can we help?", phone: "WhatsApp", send: "Send message", formKicker: "CONTACT FORM", formTitle: "Tell us how we can help", formRequired: "All fields are required.", namePlaceholder: "Enter your name", emailPlaceholder: "name@company.com", phonePlaceholder: "+593 99 999 9999", messagePlaceholder: "Write your message or request here…", formNote: "By sending this form, you agree that we may use your data only to respond to your request.", sending: "Sending…", received: "MESSAGE RECEIVED", thankYou: "Thank you for contacting us.", sent: "Your information was successfully sent to Rigel.", sendAnother: "Send another message", required: "Complete the required fields.",
       notFound: "Content not found", backProducts: "Back to products", backBlog: "Back to blog"
+    }
+  }[lang];
+
+  var politicas = {
+    es: {
+      cookies: {
+        eyebrow: "INFORMACIÓN LEGAL",
+        title: "Política de cookies",
+        intro: "Te explicamos de forma clara qué tecnologías pueden intervenir cuando visitas el sitio web de Rigel Ecuador y cómo puedes controlarlas.",
+        updated: "Versión revisada en septiembre de 2026",
+        sections: [
+          { title: "Qué son las cookies", paragraphs: ["Las cookies son pequeños archivos o identificadores que un sitio web o un servicio de terceros puede guardar en tu navegador para recordar información sobre una visita, mantener funciones técnicas o conocer cómo se utiliza un servicio."] },
+          { title: "Tecnologías utilizadas en este sitio", paragraphs: ["El sitio web de Rigel Ecuador es principalmente informativo y no instala directamente cookies de analítica, publicidad o personalización. La preferencia de idioma se conserva en la dirección de la página y no mediante una cookie propia."], items: ["Necesarias y de seguridad: el proveedor de alojamiento puede aplicar mecanismos técnicos imprescindibles para entregar y proteger el sitio.", "Formulario de contacto: al enviar el formulario interviene Google Forms, que puede utilizar sus propias tecnologías conforme a sus condiciones y políticas.", "Servicios externos: WhatsApp, redes sociales, correo electrónico y otros sitios enlazados pueden utilizar cookies cuando decides visitarlos. Esos servicios administran sus propias cookies."] },
+          { title: "Cómo administrar las cookies", paragraphs: ["Puedes bloquear, limitar o eliminar cookies desde la configuración de tu navegador. Al desactivar mecanismos estrictamente necesarios, algunas funciones externas o de seguridad podrían no operar correctamente. Tus preferencias se aplican por navegador y dispositivo, por lo que puede ser necesario configurarlas nuevamente si cambias de equipo, navegador o eliminas sus datos."] },
+          { title: "Datos personales y servicios externos", paragraphs: ["Cuando una cookie o tecnología similar permite identificar directa o indirectamente a una persona, su tratamiento se sujeta a la Ley Orgánica de Protección de Datos Personales del Ecuador. Para conocer finalidades, destinatarios y derechos, consulta nuestra {privacy}."] },
+          { title: "Cambios y contacto", paragraphs: ["Podemos actualizar esta política si cambian las funciones del sitio o la normativa aplicable. Publicaremos aquí la versión vigente.", "Si tienes preguntas sobre el uso de cookies, escríbenos a <a href=\"mailto:ventas@rigelsa.com\">ventas@rigelsa.com</a> o contáctanos por <a href=\"https://wa.me/593939474695\" target=\"_blank\" rel=\"noreferrer\">WhatsApp</a>."] }
+        ]
+      },
+      privacidad: {
+        eyebrow: "PROTECCIÓN DE DATOS",
+        title: "Política de privacidad",
+        intro: "Esta política describe cómo Rigel Ecuador recopila y utiliza datos personales cuando solicitas información, una cotización o soporte a través de nuestros canales digitales.",
+        updated: "Versión revisada en septiembre de 2026",
+        sections: [
+          { title: "Responsable del tratamiento", paragraphs: ["El responsable del tratamiento es Rigel Ecuador. Puedes contactarnos en <a href=\"mailto:ventas@rigelsa.com\">ventas@rigelsa.com</a> o al <a href=\"https://wa.me/593939474695\" target=\"_blank\" rel=\"noreferrer\">+593 93 947 4695</a>.", "Atendemos en Guayaquil, Calle Elizalde #119 y Pichincha, Edificio Luz María, piso 8, oficina 8A; y en Quito, Edificio Empresarial Unicornio, frente al CCI, piso 14, oficina 1402."] },
+          { title: "Datos que podemos recopilar", paragraphs: ["Dependiendo de tu interacción con Rigel Ecuador, podemos tratar los siguientes datos:"], items: ["Identificación y contacto: nombre, correo electrónico, teléfono y empresa.", "Consulta comercial o técnica: mensaje, producto de interés, superficie, volumen de producción y archivos que decidas compartir.", "Relación contractual: datos de facturación, entrega, garantía y soporte cuando adquieres un producto o servicio.", "Datos técnicos: dirección IP, fecha, hora, navegador y registros que el proveedor de alojamiento pueda generar para operar y proteger el sitio."] },
+          { title: "Finalidades y bases de legitimación", paragraphs: ["Usamos los datos para responder consultas, preparar cotizaciones, prestar soporte, gestionar pedidos, entregas y garantías, mantener la seguridad, cumplir obligaciones legales y mejorar nuestros servicios."], items: ["Tu consentimiento, cuando envías voluntariamente un formulario o autorizas comunicaciones comerciales.", "La ejecución de medidas precontractuales o de un contrato solicitado por ti.", "El cumplimiento de obligaciones legales aplicables a Rigel Ecuador.", "El interés legítimo, previa evaluación, para seguridad, prevención de fraude y mejora del servicio."] },
+          { title: "Origen de los datos", paragraphs: ["Recibimos datos directamente de ti mediante el formulario, correo electrónico, WhatsApp, redes sociales, llamadas o durante una relación comercial. Algunos datos técnicos pueden ser generados automáticamente por los servicios que alojan o protegen el sitio."] },
+          { title: "Proveedores, destinatarios y transferencias", paragraphs: ["Compartimos solamente la información necesaria con proveedores que apoyan el alojamiento, formularios, correo, mensajería, facturación, transporte, soporte y seguridad. El formulario del sitio utiliza Google Forms y el sitio está alojado en GitHub Pages; al usar enlaces a WhatsApp o redes sociales también se aplican las políticas de esas plataformas.", "Algunos proveedores pueden tratar datos fuera de Ecuador. En esos casos procuramos utilizar servicios con salvaguardas adecuadas y limitar la información a la necesaria. También podremos comunicar datos a autoridades cuando exista una obligación legal u orden competente."] },
+          { title: "Conservación", paragraphs: ["Conservamos los datos durante el tiempo necesario para atender la finalidad informada, mantener la relación comercial y cumplir plazos legales, contables, tributarios o de garantía. Cuando dejan de ser necesarios, los eliminamos, anonimizamos o bloqueamos según corresponda."] },
+          { title: "Tus derechos", paragraphs: ["De acuerdo con la Ley Orgánica de Protección de Datos Personales, puedes solicitar acceso, rectificación y actualización, eliminación, oposición, suspensión o limitación, portabilidad cuando proceda, revocatoria del consentimiento y no ser objeto de decisiones basadas únicamente en valoraciones automatizadas."], items: ["Envía tu solicitud a ventas@rigelsa.com e identifica el derecho que deseas ejercer.", "Podremos pedir información razonable para verificar tu identidad y proteger tus datos.", "Si consideras que tu solicitud no fue atendida adecuadamente, puedes presentar un reclamo ante la Superintendencia de Protección de Datos Personales del Ecuador."] },
+          { title: "Seguridad y decisiones automatizadas", paragraphs: ["Aplicamos medidas técnicas y organizativas razonables para proteger la confidencialidad, integridad y disponibilidad de la información. Ningún sistema es completamente invulnerable, por lo que revisamos nuestras medidas y actuamos ante incidentes conforme a la normativa.", "Rigel Ecuador no adopta, a través de este sitio, decisiones que produzcan efectos jurídicos basadas exclusivamente en el tratamiento automatizado de datos personales."] },
+          { title: "Menores, cookies y enlaces", paragraphs: ["Este sitio se dirige a personas con capacidad para solicitar productos o servicios empresariales y no pretende recopilar deliberadamente datos de niñas, niños o adolescentes. El uso de cookies y tecnologías similares se explica en nuestra {cookies}. Los sitios externos se rigen por sus propias políticas."] },
+          { title: "Actualizaciones", paragraphs: ["Podemos actualizar esta política para reflejar cambios legales, operativos o tecnológicos. La versión vigente y su fecha de revisión estarán disponibles en esta página."] }
+        ]
+      },
+      devoluciones: {
+        eyebrow: "ATENCIÓN AL CLIENTE",
+        title: "Política de devoluciones y reembolsos",
+        intro: "Conoce cómo solicitar una devolución, revisión por garantía o reembolso en compras realizadas a Rigel Ecuador.",
+        updated: "Versión revisada en septiembre de 2026",
+        sections: [
+          { title: "Alcance", paragraphs: ["Esta política se aplica a productos y servicios adquiridos directamente a Rigel Ecuador. Complementa, y no limita, los derechos reconocidos por la Ley Orgánica de Defensa del Consumidor y demás normativa ecuatoriana aplicable."] },
+          { title: "Cómo presentar una solicitud", paragraphs: ["Escríbenos a <a href=\"mailto:ventas@rigelsa.com\">ventas@rigelsa.com</a> o al <a href=\"https://wa.me/593939474695\" target=\"_blank\" rel=\"noreferrer\">+593 93 947 4695</a>. Indica el número de pedido o factura, nombre del comprador, producto, motivo y datos de contacto. Si existe un defecto o daño, adjunta fotografías o videos que faciliten la evaluación."] },
+          { title: "Derecho de devolución en compras a distancia", paragraphs: ["Cuando la compra se haya celebrado por teléfono, catálogo, internet o a domicilio, podrás ejercer el derecho de devolución dentro de los tres días posteriores a la recepción del bien o servicio, siempre que su naturaleza lo permita y se encuentre en el mismo estado en que fue recibido, conforme al artículo 45 de la Ley Orgánica de Defensa del Consumidor."], items: ["Conserva el producto, accesorios, manuales y embalaje entregados.", "No utilices ni alteres el producto más allá de lo razonablemente necesario para verificarlo.", "Contáctanos dentro del plazo para recibir instrucciones de entrega o retiro."] },
+          { title: "Productos defectuosos y garantía", paragraphs: ["Si el producto presenta una deficiencia de fabricación o no resulta apto para el uso ofrecido, revisaremos el caso y aplicaremos la garantía correspondiente. De acuerdo con la normativa ecuatoriana, procede la reparación gratuita y, cuando no sea posible, la reposición o devolución de lo pagado dentro del plazo legal aplicable, sin perjuicio de otros derechos del consumidor.", "La garantía puede no cubrir daños ocasionados por uso contrario al manual, intervención no autorizada, instalaciones eléctricas inadecuadas, golpes, humedad, consumibles incompatibles o desgaste normal, siempre que estas exclusiones hayan sido informadas y sean legalmente válidas."] },
+          { title: "Daños durante el transporte", paragraphs: ["Si observas embalaje roto, piezas faltantes o daños al recibir el pedido, registra la novedad con el transportista cuando sea posible, toma fotografías y comunícate con nosotros tan pronto como puedas. La falta de registro inmediato no elimina los derechos que te reconozca la ley."] },
+          { title: "Evaluación y estado del producto", paragraphs: ["Una vez recibido el producto, verificaremos su identidad, estado, accesorios y causa de la solicitud. Esta revisión busca determinar si corresponde devolución, reparación, reposición o reembolso y no suspende ni reduce los derechos legales del consumidor."] },
+          { title: "Reembolsos", paragraphs: ["Cuando corresponda un reembolso, procuraremos realizarlo mediante el mismo medio utilizado para el pago. Si esto no fuera posible, coordinaremos una transferencia a una cuenta del titular del pago, previa validación. Los tiempos de acreditación también pueden depender de la entidad financiera o del proveedor del medio de pago."] },
+          { title: "Logística y costos", paragraphs: ["Te enviaremos las instrucciones de entrega, retiro o envío según la ubicación y el motivo de la solicitud. Cuando la devolución se origine en un defecto cubierto, error de despacho o daño atribuible a la entrega, Rigel Ecuador coordinará los costos que legalmente le correspondan. En otros casos, informaremos previamente cualquier costo aplicable."] },
+          { title: "Productos con condiciones especiales", paragraphs: ["La devolución puede no proceder cuando la naturaleza del bien no lo permita, haya sido personalizado o fabricado por encargo, presente uso o alteraciones atribuibles al cliente, o no se encuentre en el mismo estado en que fue recibido. Cada caso se analizará conforme a la ley, la garantía informada y las características del producto."] },
+          { title: "Cancelación antes del despacho", paragraphs: ["Si el pedido aún no ha sido despachado, puedes solicitar su cancelación. Revisaremos el estado de preparación, especialmente en productos personalizados o importados bajo pedido, y te informaremos las opciones aplicables antes de ejecutar la cancelación."] },
+          { title: "Seguimiento y contacto", paragraphs: ["Confirmaremos la recepción de tu solicitud y te mantendremos informado sobre la evaluación y el siguiente paso. Para seguimiento, utiliza <a href=\"mailto:ventas@rigelsa.com\">ventas@rigelsa.com</a> o nuestro canal de <a href=\"https://wa.me/593939474695\" target=\"_blank\" rel=\"noreferrer\">WhatsApp</a>."] }
+        ]
+      }
+    },
+    en: {
+      cookies: {
+        eyebrow: "LEGAL INFORMATION", title: "Cookie policy", intro: "This policy clearly explains which technologies may be involved when you visit the Rigel Ecuador website and how you can control them.", updated: "Reviewed in September 2026",
+        sections: [
+          { title: "What cookies are", paragraphs: ["Cookies are small files or identifiers that a website or third-party service may store in your browser to remember information about a visit, maintain technical functions or understand how a service is used."] },
+          { title: "Technologies used on this website", paragraphs: ["The Rigel Ecuador website is primarily informational and does not directly install analytics, advertising or personalization cookies. The language preference is kept in the page address rather than in a first-party cookie."], items: ["Necessary and security technologies: the hosting provider may use essential technical mechanisms to deliver and protect the website.", "Contact form: when you submit the form, Google Forms is involved and may use its own technologies under its terms and policies.", "External services: WhatsApp, social networks, email and other linked websites may use cookies when you choose to visit them. Those services manage their own cookies."] },
+          { title: "How to manage cookies", paragraphs: ["You can block, limit or delete cookies in your browser settings. Disabling strictly necessary mechanisms may prevent some external or security functions from operating correctly. Preferences apply per browser and device."] },
+          { title: "Personal data and external services", paragraphs: ["When a cookie or similar technology can identify a person directly or indirectly, processing is subject to Ecuador's Organic Law on Personal Data Protection. See our {privacy} for purposes, recipients and rights."] },
+          { title: "Changes and contact", paragraphs: ["We may update this policy if the website functions or applicable regulations change. The current version will be published here.", "Questions can be sent to <a href=\"mailto:ventas@rigelsa.com\">ventas@rigelsa.com</a> or through <a href=\"https://wa.me/593939474695\" target=\"_blank\" rel=\"noreferrer\">WhatsApp</a>."] }
+        ]
+      },
+      privacidad: {
+        eyebrow: "DATA PROTECTION", title: "Privacy policy", intro: "This policy describes how Rigel Ecuador collects and uses personal data when you request information, a quotation or support through our digital channels.", updated: "Reviewed in September 2026",
+        sections: [
+          { title: "Data controller", paragraphs: ["The data controller is Rigel Ecuador. Contact us at <a href=\"mailto:ventas@rigelsa.com\">ventas@rigelsa.com</a> or <a href=\"https://wa.me/593939474695\" target=\"_blank\" rel=\"noreferrer\">+593 93 947 4695</a>.", "Our offices are in Guayaquil, Calle Elizalde #119 and Pichincha, Edificio Luz María, 8th floor, office 8A; and Quito, Edificio Empresarial Unicornio, opposite CCI, 14th floor, office 1402."] },
+          { title: "Data we may collect", paragraphs: ["Depending on your interaction, we may process:"], items: ["Identification and contact details, including name, email, telephone and company.", "Commercial or technical enquiry details, including your message, product of interest, surface, production volume and files you choose to share.", "Contractual information for invoicing, delivery, warranties and support when you purchase a product or service.", "Technical data such as IP address, date, time, browser and logs produced by the hosting provider to operate and protect the website."] },
+          { title: "Purposes and lawful grounds", paragraphs: ["We use data to answer enquiries, prepare quotations, provide support, manage orders, deliveries and warranties, maintain security, comply with legal duties and improve our services."], items: ["Your consent when you voluntarily submit a form or authorize marketing communications.", "Steps requested before entering into a contract or performance of a contract.", "Compliance with legal obligations applicable to Rigel Ecuador.", "Legitimate interests, after assessment, for security, fraud prevention and service improvement."] },
+          { title: "Sources of data", paragraphs: ["We receive data directly from you through the form, email, WhatsApp, social networks, telephone calls or a business relationship. Technical data may be generated automatically by services that host or protect the website."] },
+          { title: "Providers, recipients and transfers", paragraphs: ["We share only necessary information with providers supporting hosting, forms, email, messaging, invoicing, transport, support and security. The website uses Google Forms and is hosted on GitHub Pages; linked services such as WhatsApp and social networks apply their own policies.", "Some providers may process data outside Ecuador. We seek appropriate safeguards and limit information to what is necessary. Data may also be disclosed to authorities when legally required."] },
+          { title: "Retention", paragraphs: ["We retain data for as long as necessary for the stated purpose, the business relationship and applicable legal, accounting, tax or warranty periods. Data is then deleted, anonymized or restricted as appropriate."] },
+          { title: "Your rights", paragraphs: ["Under Ecuador's Organic Law on Personal Data Protection, you may request access, rectification and updating, deletion, objection, suspension or restriction, portability where applicable, withdrawal of consent, and protection from decisions based solely on automated processing."], items: ["Send your request to ventas@rigelsa.com and identify the right you wish to exercise.", "We may request reasonable information to verify your identity and protect your data.", "If your request is not adequately addressed, you may complain to Ecuador's Personal Data Protection Authority."] },
+          { title: "Security and automated decisions", paragraphs: ["We apply reasonable technical and organizational measures to protect confidentiality, integrity and availability. No system is completely invulnerable, so we review our safeguards and respond to incidents under applicable law.", "Rigel Ecuador does not use this website to make decisions with legal effects based solely on automated processing of personal data."] },
+          { title: "Children, cookies and links", paragraphs: ["This website is intended for people able to request business products or services and is not designed to deliberately collect children's data. Cookies and similar technologies are explained in our {cookies}. External websites apply their own policies."] },
+          { title: "Updates", paragraphs: ["We may update this policy to reflect legal, operational or technological changes. The current version and review date will remain available on this page."] }
+        ]
+      },
+      devoluciones: {
+        eyebrow: "CUSTOMER CARE", title: "Returns and refunds policy", intro: "Learn how to request a return, warranty review or refund for purchases made from Rigel Ecuador.", updated: "Reviewed in September 2026",
+        sections: [
+          { title: "Scope", paragraphs: ["This policy applies to products and services purchased directly from Rigel Ecuador. It complements and does not limit rights under Ecuador's Organic Consumer Protection Law and other applicable regulations."] },
+          { title: "How to submit a request", paragraphs: ["Email <a href=\"mailto:ventas@rigelsa.com\">ventas@rigelsa.com</a> or contact <a href=\"https://wa.me/593939474695\" target=\"_blank\" rel=\"noreferrer\">+593 93 947 4695</a>. Include the order or invoice number, purchaser name, product, reason and contact details. For defects or damage, attach photos or videos that may assist the review."] },
+          { title: "Return right for distance purchases", paragraphs: ["For purchases concluded by telephone, catalogue, internet or at home, you may exercise the return right within three days after receiving the good or service, provided its nature permits and it remains in the same condition, under article 45 of Ecuador's Organic Consumer Protection Law."], items: ["Keep the product, accessories, manuals and supplied packaging.", "Do not use or alter the product beyond what is reasonably necessary to inspect it.", "Contact us within the period for delivery or collection instructions."] },
+          { title: "Defective products and warranty", paragraphs: ["If a product has a manufacturing deficiency or is not fit for the offered use, we will review the case and apply the relevant warranty. Ecuadorian law provides for free repair and, when repair is not possible, replacement or refund within the applicable legal period, without prejudice to other consumer rights.", "Warranty coverage may exclude damage caused by use contrary to the manual, unauthorized intervention, unsuitable electrical installations, impacts, moisture, incompatible consumables or normal wear, where those exclusions were disclosed and are legally valid."] },
+          { title: "Shipping damage", paragraphs: ["If you notice broken packaging, missing parts or damage on delivery, record it with the carrier where possible, take photos and contact us promptly. Failure to record it immediately does not remove rights granted by law."] },
+          { title: "Assessment and product condition", paragraphs: ["Once the product is received, we will check its identity, condition, accessories and the reason for the request to determine whether a return, repair, replacement or refund applies. This assessment does not suspend or reduce statutory rights."] },
+          { title: "Refunds", paragraphs: ["When a refund applies, we will seek to use the original payment method. If that is not possible, we will coordinate a transfer to an account held by the payer after validation. Credit timing may also depend on the financial institution or payment provider."] },
+          { title: "Logistics and costs", paragraphs: ["We will provide delivery, collection or shipping instructions according to location and reason. Where a return results from a covered defect, fulfilment error or attributable shipping damage, Rigel Ecuador will coordinate the costs for which it is legally responsible. Any other applicable cost will be disclosed in advance."] },
+          { title: "Products with special conditions", paragraphs: ["A return may not apply where the nature of the good prevents it, the item was customized or made to order, it shows use or alterations attributable to the customer, or it is not in the condition received. Each case is assessed under the law, the disclosed warranty and product characteristics."] },
+          { title: "Cancellation before dispatch", paragraphs: ["If an order has not been dispatched, you may request cancellation. We will review its preparation status, particularly for customized or specially imported goods, and explain the available options before completing the cancellation."] },
+          { title: "Follow-up and contact", paragraphs: ["We will acknowledge your request and keep you informed about the assessment and next step. Use <a href=\"mailto:ventas@rigelsa.com\">ventas@rigelsa.com</a> or <a href=\"https://wa.me/593939474695\" target=\"_blank\" rel=\"noreferrer\">WhatsApp</a> for follow-up."] }
+        ]
+      }
     }
   }[lang];
 
@@ -304,7 +402,7 @@
       '<div class="pie-columnas"><div><h2>Rigel</h2><a href="' + conIdioma("index.html") + '">' + texto.home + '</a><a href="' + conIdioma("quienes-somos.html") + '">' + texto.about + '</a><a href="' + conIdioma("blog.html") + '">' + texto.blog + '</a></div>' +
       '<div><h2>' + texto.products + '</h2><a href="' + conIdioma("productos.html?tipo=Codificadora") + '">' + texto.printers + '</a><a href="' + conIdioma("productos.html?tipo=Tinta") + '">' + texto.inks + '</a><a href="' + conIdioma("productos.html?tipo=Accesorio") + '">' + texto.accessories + '</a></div>' +
       '<div><h2>' + texto.support + '</h2><a href="' + conIdioma("contacto.html") + '">' + texto.contact + '</a><a href="mailto:' + correo + '">' + correo + '</a></div></div></div>' +
-      '<div class="contenedor pie-legal"><p>© Rigel 2026.</p></div>';
+      '<div class="contenedor pie-legal"><div class="pie-legal-interior"><p>© Rigel 2026.</p><nav class="pie-enlaces-legales" aria-label="' + texto.legalNav + '"><a href="' + conIdioma("politica-cookies.html") + '">' + texto.cookiesPolicy + '</a><a href="' + conIdioma("politica-privacidad.html") + '">' + texto.privacyPolicy + '</a><a href="' + conIdioma("devoluciones-reembolsos.html") + '">' + texto.refundsPolicy + '</a></nav></div></div>';
 
     if (!document.querySelector(".whatsapp-flotante")) {
       document.body.insertAdjacentHTML("beforeend", '<a class="whatsapp-flotante" href="' + whatsapp + '" target="_blank" rel="noreferrer" aria-label="' + texto.contactUs + ' por WhatsApp"><img src="assets/social/whatsapp.svg" alt=""><span>WhatsApp</span></a>');
@@ -506,6 +604,23 @@
     activarFormularioGoogle();
   }
 
+  function renderPolitica(clave) {
+    var politica = politicas[clave];
+    if (!politica) { noEncontrado(texto.home, conIdioma("index.html")); return; }
+    var reemplazarEnlaces = function (valor) {
+      return valor
+        .replace("{privacy}", '<a href="' + conIdioma("politica-privacidad.html") + '">' + texto.privacyPolicy + '</a>')
+        .replace("{cookies}", '<a href="' + conIdioma("politica-cookies.html") + '">' + texto.cookiesPolicy + '</a>');
+    };
+    var secciones = politica.sections.map(function (seccion, indice) {
+      var parrafos = (seccion.paragraphs || []).map(function (parrafo) { return '<p>' + reemplazarEnlaces(parrafo) + '</p>'; }).join("");
+      var lista = seccion.items ? '<ul>' + seccion.items.map(function (item) { return '<li>' + reemplazarEnlaces(item) + '</li>'; }).join("") + '</ul>' : "";
+      return '<section class="politica-seccion"><div class="politica-numero" aria-hidden="true">' + String(indice + 1).padStart(2, "0") + '</div><div><h2>' + seccion.title + '</h2>' + parrafos + lista + '</div></section>';
+    }).join("");
+    contenido.innerHTML = '<section class="cabecera-pagina cabecera-politica"><div class="contenedor"><p class="eyebrow">' + politica.eyebrow + '</p><h1>' + politica.title + '</h1><p>' + politica.intro + '</p></div></section>' +
+      '<section class="seccion politica-contenido"><div class="contenedor politica-rejilla"><aside class="politica-resumen"><p class="eyebrow">RIGEL ECUADOR</p><p>' + politica.updated + '</p><a href="mailto:' + correo + '">' + correo + '</a><a href="https://wa.me/593939474695" target="_blank" rel="noreferrer">+593 93 947 4695</a></aside><article class="politica-articulo">' + secciones + '</article></div></section>';
+  }
+
   function activarFormularioGoogle() {
     var formulario = document.getElementById("formulario-contacto");
     var iframe = document.querySelector('iframe[name="respuesta-google"]');
@@ -545,10 +660,10 @@
   var pagina = document.body.getAttribute("data-page");
   var titulos = lang === "en" ? {
     inicio: "Rigel | Marking & coding", productos: "Products | Rigel", nosotros: "About us | Rigel",
-    blog: "Blog | Rigel", contacto: "Contact us | Rigel"
+    blog: "Blog | Rigel", contacto: "Contact us | Rigel", cookies: "Cookie policy | Rigel", privacidad: "Privacy policy | Rigel", devoluciones: "Returns and refunds | Rigel"
   } : {
     inicio: "Rigel | Marcaje y codificación", productos: "Productos | Rigel", nosotros: "Quiénes somos | Rigel",
-    blog: "Blog | Rigel", contacto: "Contáctanos | Rigel"
+    blog: "Blog | Rigel", contacto: "Contáctanos | Rigel", cookies: "Política de cookies | Rigel", privacidad: "Política de privacidad | Rigel", devoluciones: "Devoluciones y reembolsos | Rigel"
   };
   if (titulos[pagina]) document.title = titulos[pagina];
   if (pagina === "inicio") renderInicio();
@@ -558,5 +673,8 @@
   else if (pagina === "blog") renderBlog();
   else if (pagina === "articulo") renderArticulo();
   else if (pagina === "contacto") renderContacto();
+  else if (pagina === "cookies") renderPolitica("cookies");
+  else if (pagina === "privacidad") renderPolitica("privacidad");
+  else if (pagina === "devoluciones") renderPolitica("devoluciones");
   else noEncontrado(texto.home, conIdioma("index.html"));
 }());
