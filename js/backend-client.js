@@ -3,7 +3,7 @@
 
   function iniciarSitio() {
     var script = document.createElement("script");
-    script.src = "js/app.js?v=20260902-1";
+    script.src = "js/app.js?v=20260902-2";
     script.defer = true;
     document.body.appendChild(script);
   }

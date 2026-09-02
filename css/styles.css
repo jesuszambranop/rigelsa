@@ -330,16 +330,14 @@ p { line-height: 1.65; }
 .ventajas-rejilla strong { color: #4b4f52; }
 .pie-principal { display: grid; grid-template-columns: 1.15fr .85fr; gap: 90px; padding-top: 70px; padding-bottom: 58px; }
 .pie-marca > p { max-width: 510px; margin: 22px 0 28px; font-size: 18px; }
-.pie-columnas { display: grid; grid-template-columns: repeat(3, 1fr); gap: 35px; }
+.pie-columnas { display: grid; grid-template-columns: 1.35fr .85fr 1.1fr; gap: 35px; }
 .pie-columnas > div { display: flex; flex-direction: column; gap: 12px; }
 .pie-columnas h2 { margin: 0 0 8px; color: #555a5d; font-size: 16px; }
+.pie-columnas .pie-subtitulo { margin-top: 24px; }
 .pie-columnas a { font-size: 14px; }
 .pie-columnas a:hover { color: var(--azul); }
 .pie-legal { padding: 24px 0 36px; border-top: 1px solid #ccd1d3; font-size: 13px; }
 .pie-legal p { margin: 0; }
-.pie-legal-interior { display: flex; align-items: flex-start; justify-content: space-between; gap: 30px; }
-.pie-enlaces-legales { min-width: 330px; display: flex; flex-direction: column; align-items: flex-start; gap: 9px; }
-.pie-enlaces-legales a:hover, .pie-enlaces-legales a:focus-visible { color: var(--azul); text-decoration: underline; text-underline-offset: 3px; }
 .pagina-404 { min-height: 70vh; display: grid; place-items: center; padding: 60px 24px; text-align: center; }
 .pagina-404 h1 { margin: 0; color: var(--azul-oscuro); font-size: clamp(44px, 6vw, 72px); }
 .pagina-404 p:not(.eyebrow) { color: var(--gris); }
@@ -451,8 +449,6 @@ p { line-height: 1.65; }
   .politica-resumen { position: static; }
   .politica-seccion { grid-template-columns: 40px minmax(0, 1fr); gap: 14px; padding-bottom: 36px; margin-bottom: 36px; }
   .politica-seccion p { font-size: 15px; }
-  .pie-legal-interior { display: block; }
-  .pie-enlaces-legales { min-width: 0; margin-top: 18px; }
 }
 
 @media (max-width: 460px) {
@@ -461,7 +457,6 @@ p { line-height: 1.65; }
   .hero-texto h1 { font-size: 35px; }
   .politica-seccion { grid-template-columns: 1fr; gap: 9px; }
   .politica-numero { padding-top: 0; }
-  .pie-enlaces-legales { gap: 11px; }
   .franja-industrial, .franja-contenido { min-height: 880px; }
   .franja-contenido { padding-bottom: 44px; }
   .franja-opciones { grid-template-columns: 1fr; }
