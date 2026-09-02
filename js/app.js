@@ -656,6 +656,15 @@
     contenido.innerHTML = '<section class="pagina-404"><div><img class="logo-404" src="assets/brand/rigel-horizontal.png" alt="Rigel"><h1>' + texto.notFound + '</h1><a class="boton boton-azul" href="' + enlace + '">' + etiqueta + '</a></div></section>';
   }
 
+  function protegerImagenes() {
+    var bloquearDescargaRapida = function (evento) { evento.preventDefault(); };
+    Array.prototype.forEach.call(document.querySelectorAll("img"), function (imagen) {
+      imagen.setAttribute("draggable", "false");
+      imagen.addEventListener("dragstart", bloquearDescargaRapida);
+      imagen.addEventListener("contextmenu", bloquearDescargaRapida);
+    });
+  }
+
   dibujarEstructura();
   var pagina = document.body.getAttribute("data-page");
   var titulos = lang === "en" ? {
@@ -677,4 +686,5 @@
   else if (pagina === "privacidad") renderPolitica("privacidad");
   else if (pagina === "devoluciones") renderPolitica("devoluciones");
   else noEncontrado(texto.home, conIdioma("index.html"));
+  protegerImagenes();
 }());
