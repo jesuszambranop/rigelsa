@@ -1,0 +1,20 @@
+# RIGEL: evitar que visitantes reciban versiones antiguas del sitio.
+<IfModule LiteSpeed>
+  CacheDisable public /
+  CacheDisable private /
+</IfModule>
+
+<IfModule mod_headers.c>
+  # El HTML siempre debe comprobar la publicación actual.
+  <FilesMatch "\.(html?|php)$">
+    Header always set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+    Header always set Pragma "no-cache"
+    Header always set Expires "0"
+  </FilesMatch>
+
+  # Los recursos pueden guardarse, pero deben revalidarse antes de reutilizarse.
+  <FilesMatch "\.(css|js|json|jpg|jpeg|png|webp|svg|gif|ico)$">
+    Header always set Cache-Control "no-cache, must-revalidate, max-age=0"
+    Header always set Expires "0"
+  </FilesMatch>
+</IfModule>
