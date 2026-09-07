@@ -16,7 +16,7 @@ body { margin: 0; color: var(--negro); background: var(--blanco); font-family: "
 button, input, select, textarea { font: inherit; }
 button, a { -webkit-tap-highlight-color: transparent; }
 a { color: inherit; text-decoration: none; }
-img { display: block; max-width: 100%; }
+img { display: block; max-width: 100%; -webkit-user-drag: none; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
 p { line-height: 1.65; }
 .contenedor { width: min(1180px, calc(100% - 48px)); margin-inline: auto; }
 .solo-lectura { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
