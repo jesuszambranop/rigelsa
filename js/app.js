@@ -253,7 +253,8 @@
     { nombre: "Biodesix", imagen: "assets/clientes/biodesix.webp" },
     { nombre: "Calmosacorp", imagen: "assets/clientes/calmosacorp.webp" },
     { nombre: "Mr. Morocho", imagen: "assets/clientes/mr-morocho.webp" },
-    { nombre: "Graiman", imagen: "assets/clientes/graiman.webp" }
+    { nombre: "Graiman", imagen: "assets/clientes/graiman.webp" },
+    { nombre: "Monverd", imagen: "assets/clientes/monverd.jpg" }
   ];
 
   var sedes = lang === "en" ? [
