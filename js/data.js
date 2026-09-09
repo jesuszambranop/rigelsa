@@ -13,7 +13,7 @@ var productos = [
     disponibilidadTexto: "Disponible",
     resumen: "Compacta, táctil y diseñada para codificar productos secos y congelados.",
     descripcion: "Codificadora portátil de una mano con pantalla táctil de 3,5 pulgadas. Permite imprimir fechas, lotes, textos, logotipos y códigos sobre superficies planas, curvas, rugosas y espacios reducidos.",
-    imagen: "/assets/productos/m1/principal.webp",
+    imagen: "/assets/productos/m1/codificadora-portatil-m1-rigel.webp",
     galeria: Array.from({ length: 7 }, (_, i) => `/assets/productos/m1/galeria-${i + 1}.webp`),
     ficha: "/assets/productos/m1/ficha-tecnica.pdf",
     video: "https://www.youtube-nocookie.com/embed/P94ap01WZgY",
@@ -47,7 +47,7 @@ var productos = [
     disponibilidadTexto: "Disponible",
     resumen: "Codificación inalámbrica para productos secos, húmedos y congelados.",
     descripcion: "Equipo portátil controlado mediante aplicación para Android o iOS. Su conexión Wi-Fi y tinta solvente permiten una operación sencilla y flexible en distintas líneas de trabajo.",
-    imagen: "/assets/productos/b15/principal.webp",
+    imagen: "/assets/productos/b15/codificadora-portatil-wifi-b15.webp",
     galeria: Array.from({ length: 8 }, (_, i) => `/assets/productos/b15/galeria-${i + 1}.webp`),
     ficha: "/assets/productos/b15/ficha-tecnica.pdf",
     video: "https://www.youtube-nocookie.com/embed/EAKc1gC-TPA",
@@ -81,8 +81,10 @@ var productos = [
     disponibilidadTexto: "Disponible",
     resumen: "Equipo tipo pistola para impresión manual o integrada a una banda transportadora.",
     descripcion: "Codificadora ligera con pantalla de alta definición y puerto para fotosensor. Se adapta a trabajos manuales y a procesos automáticos de producción.",
-    imagen: "/assets/productos/bt6205bl/principal.webp",
-    galeria: Array.from({ length: 8 }, (_, i) => `/assets/productos/bt6205bl/galeria-${i + 1}.webp`),
+    imagen: "/assets/productos/bt6205bl/codificadora-portatil-bt6205bl.webp",
+    galeria: [
+      "/assets/productos/bt6205bl/galeria-1.webp", "/assets/productos/bt6205bl/galeria-2.webp", "/assets/productos/bt6205bl/galeria-3.webp", "/assets/productos/bt6205bl/galeria-4.webp", "/assets/productos/bt6205bl/codificacion-lote-caja-carton-bt6205bl.webp", "/assets/productos/bt6205bl/galeria-6.webp", "/assets/productos/bt6205bl/galeria-7.webp", "/assets/productos/bt6205bl/galeria-8.webp",
+    ],
     ficha: "/assets/productos/bt6205bl/ficha-tecnica.pdf",
     video: "https://www.youtube-nocookie.com/embed/hQ1XnHxlezo",
     altura: "12,7 mm",
@@ -115,9 +117,9 @@ var productos = [
     disponibilidadTexto: "Disponible",
     resumen: "Mayor altura de impresión para producciones que requieren más información por pasada.",
     descripcion: "Codificadora tipo pistola con altura de 25,4 mm, pantalla de alta definición y conexión para fotosensor. Puede trabajar de forma manual o acoplada a una banda transportadora.",
-    imagen: "/assets/productos/bt6210bl/principal.webp",
+    imagen: "/assets/productos/bt6210bl/codificadora-portatil-bt6210bl.webp",
     galeria: [
-      "/assets/productos/bt6210bl/galeria-1.webp", "/assets/productos/bt6210bl/galeria-2.webp", "/assets/productos/bt6210bl/galeria-3.png", "/assets/productos/bt6210bl/galeria-4.webp", "/assets/productos/bt6210bl/galeria-5.webp", "/assets/productos/bt6210bl/galeria-6.webp", "/assets/productos/bt6210bl/galeria-7.webp", "/assets/productos/bt6210bl/galeria-8.webp",
+      "/assets/productos/bt6210bl/galeria-1.webp", "/assets/productos/bt6210bl/galeria-2.webp", "/assets/productos/bt6210bl/galeria-3.png", "/assets/productos/bt6210bl/galeria-4.webp", "/assets/productos/bt6210bl/codificacion-fecha-lote-caja-carton-bt6210bl.webp", "/assets/productos/bt6210bl/galeria-6.webp", "/assets/productos/bt6210bl/galeria-7.webp", "/assets/productos/bt6210bl/galeria-8.webp",
     ],
     ficha: "/assets/productos/bt6210bl/ficha-tecnica.pdf",
     video: "https://www.youtube-nocookie.com/embed/kITvkkMcnz4",
@@ -151,7 +153,7 @@ var productos = [
     disponibilidadTexto: "Disponible bajo pedido",
     resumen: "Codificadora industrial de gran formato para textos, logotipos y señalética.",
     descripcion: "Solución manual o automática con dos tintas y una altura de impresión de hasta 50 mm. Indicada para operaciones de mayor volumen y personalización industrial.",
-    imagen: "/assets/productos/b45/principal.webp",
+    imagen: "/assets/productos/b45/codificadora-industrial-b45.webp",
     galeria: Array.from({ length: 8 }, (_, i) => `/assets/productos/b45/galeria-${i + 1}.webp`),
     ficha: "/assets/productos/b45/ficha-tecnica.pdf",
     altura: "50 mm",
@@ -184,7 +186,7 @@ var productos = [
     disponibilidadTexto: "Disponible bajo pedido",
     resumen: "La mayor altura de la línea Rigel para codificación y personalización industrial.",
     descripcion: "Equipo de cuatro tintas capaz de imprimir hasta 40 líneas y cubrir formatos de gran altura. Se adapta a procesos manuales y automáticos.",
-    imagen: "/assets/productos/b85/principal.webp",
+    imagen: "/assets/productos/b85/codificadora-industrial-gran-formato-b85.webp",
     galeria: Array.from({ length: 7 }, (_, i) => `/assets/productos/b85/galeria-${i + 1}.webp`),
     ficha: "/assets/productos/b85/ficha-tecnica.pdf",
     altura: "100 mm",
@@ -217,7 +219,7 @@ var productos = [
     disponibilidadTexto: "Disponible",
     resumen: "Tinta solvente de secado rápido para impresiones de 12,7 mm.",
     descripcion: "Consumible original BENTSAI para mantener una impresión nítida, estable y de rápida adherencia sobre distintas superficies.",
-    imagen: "/assets/productos/bb22b/principal.webp",
+    imagen: "/assets/productos/bb22b/tinta-solvente-bentsai-bb22b.webp",
     galeria: [],
     altura: "12,7 mm",
     alturaFiltro: "12,7 mm",
@@ -235,7 +237,7 @@ var productos = [
     disponibilidadTexto: "Disponible",
     resumen: "Tinta solvente para equipos de mayor altura y aplicaciones industriales.",
     descripcion: "Tinta original BENTSAI de secado rápido para impresiones consistentes sobre plástico, vidrio, metal, cartón y otros materiales.",
-    imagen: "/assets/productos/eb21b/principal.webp",
+    imagen: "/assets/productos/eb21b/tinta-solvente-bentsai-eb21b.webp",
     galeria: [],
     altura: "25,4 mm",
     alturaFiltro: "25,4 mm",
@@ -253,7 +255,7 @@ var productos = [
     disponibilidadTexto: "Disponible",
     resumen: "Consumible original de larga duración para codificación industrial.",
     descripcion: "Tinta BENTSAI para líneas de impresión de mayor altura, con tinta solvente de rápida adherencia y acabado definido.",
-    imagen: "/assets/productos/eb22bl/principal.webp",
+    imagen: "/assets/productos/eb22bl/tinta-solvente-bentsai-eb22bl.webp",
     galeria: [],
     altura: "25,4 mm",
     alturaFiltro: "25,4 mm",
@@ -271,7 +273,7 @@ var productos = [
     disponibilidadTexto: "Disponible",
     resumen: "Tinta solvente de 12,7 mm compatible con la codificadora M1.",
     descripcion: "Consumible para impresión de fechas, lotes, textos, logotipos y códigos sobre diversas superficies.",
-    imagen: "/assets/productos/s70/principal.webp",
+    imagen: "/assets/productos/s70/tinta-solvente-s70-codificadora-m1.webp",
     galeria: [],
     altura: "12,7 mm",
     alturaFiltro: "12,7 mm",
@@ -289,7 +291,7 @@ var productos = [
     disponibilidadTexto: "Disponible",
     resumen: "Tinta de 12,7 mm para codificación portátil con el equipo M1.",
     descripcion: "Tinta solvente de secado rápido para resultados nítidos en papel, plástico, cartón, metal y otras superficies.",
-    imagen: "/assets/productos/sk10/principal.webp",
+    imagen: "/assets/productos/sk10/tinta-solvente-sk10-codificadora-m1.webp",
     galeria: [],
     altura: "12,7 mm",
     alturaFiltro: "12,7 mm",
@@ -309,8 +311,8 @@ var articulos = [
     titulo: "Codificadora fechadora: ¿qué es?",
     extracto: "Una solución manual, compacta e intuitiva para imprimir fechas, textos, códigos y más sobre diferentes superficies.",
     categoria: "Introducción",
-    imagen: "/assets/blog/1/imagen-1.webp",
-    imagenes: ["/assets/blog/1/imagen-2.webp"],
+    imagen: "/assets/blog/1/codificadora-fechadora-portatil-imprimiendo-fechas.webp",
+    imagenes: ["/assets/blog/1/pantalla-codificadora-fechas-lotes.webp"],
     secciones: [
       { parrafos: ["Una codificadora fechadora es una solución tecnológica manual, compacta e intuitiva que facilita el proceso de codificado e impresión de fechas, textos, códigos y más sobre diferentes superficies."] },
       { titulo: "Características", puntos: [
@@ -328,8 +330,8 @@ var articulos = [
     titulo: "Fecha de elaboración y vencimiento en productos",
     extracto: "Por qué incluirlas, cómo se determinan y qué aportan a la seguridad del consumidor y al control del inventario.",
     categoria: "Buenas prácticas",
-    imagen: "/assets/blog/2/imagen-1.webp",
-    imagenes: ["/assets/blog/2/imagen-2.webp"],
+    imagen: "/assets/blog/2/fechas-elaboracion-vencimiento-productos.webp",
+    imagenes: ["/assets/blog/2/consumidor-revisa-fecha-caducidad-producto.webp"],
     secciones: [
       { titulo: "¿Por qué incluirlas?", parrafos: ["Agregar la fecha de elaboración y caducidad es obligatorio en cada país para garantizar la seguridad del consumo del producto.", "La fecha de elaboración indica cuándo se fabricó un producto. La fecha de vencimiento marca el límite recomendado para consumirlo o utilizarlo."] },
       { titulo: "Proceso para establecerlas", parrafos: ["Para incluir fechas adecuadas se realizan pruebas de estabilidad bajo distintas condiciones. Los resultados permiten determinar cuánto tiempo mantiene el producto su calidad y pureza previstas, y definir una fecha segura para el consumidor."] },
@@ -341,8 +343,8 @@ var articulos = [
     titulo: "Beneficios de incluir una codificadora fechadora",
     extracto: "Versatilidad, precisión y velocidad para producciones farmacéuticas, alimenticias, agrícolas y de empaquetado.",
     categoria: "Producción",
-    imagen: "/assets/blog/3/imagen-1.webp",
-    imagenes: ["/assets/blog/3/imagen-2.webp"],
+    imagen: "/assets/blog/3/codificacion-envases-negocio.webp",
+    imagenes: ["/assets/blog/3/codificadora-portatil-aplicaciones-envases.webp"],
     secciones: [
       { parrafos: ["Las codificadoras manuales están transformando el proceso de producción de distintas industrias. Brindan una solución tecnológica eficiente para imprimir sobre múltiples superficies y se adaptan a sectores como el farmacéutico, alimenticio, agrícola y de empaquetado."] },
       { titulo: "Usos principales", puntos: [
@@ -359,8 +361,8 @@ var articulos = [
     titulo: "¿Qué codificadora es ideal para tu negocio?",
     extracto: "Una guía para escoger el equipo según el tamaño de la empresa, la altura de impresión y el volumen de producción.",
     categoria: "Guía de compra",
-    imagen: "/assets/blog/4/imagen-1.webp",
-    imagenes: ["/assets/blog/4/imagen-2.webp", "/assets/blog/4/imagen-3.webp", "/assets/blog/4/imagen-4.webp"],
+    imagen: "/assets/blog/4/codificadora-portatil-m1-presentacion.webp",
+    imagenes: ["/assets/blog/4/codificadora-wifi-b15.webp", "/assets/blog/4/codificadora-manual-automatica-bt6205bl.webp", "/assets/blog/4/codificadora-industrial-bt6210bl.webp"],
     secciones: [
       { parrafos: ["Nuestras codificadoras están diseñadas para empresas que necesitan incluir fechas, lotes, códigos e información adicional en sus productos. Su versatilidad permite adaptarlas a diferentes áreas de trabajo."] },
       { titulo: "Empresas pequeñas", puntos: [
@@ -381,7 +383,7 @@ var articulos = [
     titulo: "¿Cómo extender la vida de tu tinta?",
     extracto: "Limpieza, almacenamiento y cuidados sencillos para mantener una impresión definida por más tiempo.",
     categoria: "Mantenimiento",
-    imagen: "/assets/productos/bb22b/principal.webp",
+    imagen: "/assets/productos/bb22b/tinta-solvente-bentsai-bb22b.webp",
     video: "https://www.youtube-nocookie.com/embed/cbf6daTScR8",
     secciones: [
       { parrafos: ["Las codificadoras trabajan con tinta solvente de secado rápido. Un cuidado adecuado de la tinta extiende su vida útil y conserva la calidad de impresión."] },
@@ -397,7 +399,7 @@ var articulos = [
     titulo: "¿Cómo agregar textos, fechas y códigos?",
     extracto: "Una explicación práctica para editar textos, logotipos, códigos de barras y códigos QR desde tu codificadora.",
     categoria: "Tutorial",
-    imagen: "/assets/blog/6/imagen-1.webp",
+    imagen: "/assets/blog/6/codificadora-bt6205bl-textos-fechas-codigos.webp",
     secciones: [
       { titulo: "Agregar fechas y textos", parrafos: ["Ingresa al apartado de edición y selecciona la opción de texto. Desde la vista previa puedes escribir una fecha o un texto, escoger fuente, tamaño, espaciado y propiedades como negrita, cursiva, subrayado o tachado."] },
       { titulo: "Agregar logotipos", parrafos: ["Guarda el logotipo en el pendrive en formato PNG o JPG. Conecta el USB, entra a Edición, selecciona Más e Imagen, y ajusta el archivo al tamaño deseado."] },
@@ -410,8 +412,8 @@ var articulos = [
     titulo: "¿Por qué escoger tinta BENTSAI?",
     extracto: "Calidad, rendimiento y adherencia para proteger la nitidez de cada impresión.",
     categoria: "Consumibles",
-    imagen: "/assets/blog/7/imagen-1.webp",
-    imagenes: ["/assets/blog/7/imagen-2.webp"],
+    imagen: "/assets/blog/7/cartucho-tinta-bentsai-bb22b.webp",
+    imagenes: ["/assets/blog/7/tintas-bentsai-codificadoras.webp"],
     secciones: [
       { parrafos: ["Cuando la tinta termina, puedes buscar un consumible genérico o escoger tinta original BENTSAI. Ambas opciones pueden utilizar tinta solvente, pero la calidad de la tinta influye directamente en el resultado."] },
       { titulo: "Impresión clara y estable", parrafos: ["La tecnología de la tinta original ayuda a administrar el suministro en cada impresión y produce textos, códigos e imágenes nítidos sobre los productos."] },
@@ -424,7 +426,7 @@ var articulos = [
     titulo: "Codificación secuencial",
     extracto: "Configura una base de datos para imprimir series variables de forma automática.",
     categoria: "Tutorial",
-    imagen: "/assets/productos/bt6210bl/galeria-5.webp",
+    imagen: "/assets/productos/bt6210bl/codificacion-fecha-lote-caja-carton-bt6210bl.webp",
     secciones: [
       { parrafos: ["No es necesario editar manualmente una fecha o un número de lote después de cada impresión. La base de datos permite configurar una secuencia automática."] },
       { titulo: "Preparar el archivo", parrafos: ["Crea la base de datos en Excel sin dejar celdas vacías entre los registros y guarda el archivo en formato CSV UTF-8."] },
@@ -437,7 +439,7 @@ var articulos = [
     titulo: "Codificación automática",
     extracto: "Integra una codificadora compatible a una banda transportadora y agiliza tu línea de producción.",
     categoria: "Automatización",
-    imagen: "/assets/productos/bt6205bl/galeria-5.webp",
+    imagen: "/assets/productos/bt6205bl/codificacion-lote-caja-carton-bt6205bl.webp",
     secciones: [
       { parrafos: ["La línea BT combina un diseño ligero con un software sencillo y puede adaptarse al trabajo manual o automático."] },
       { titulo: "Ventajas", puntos: [
@@ -457,4 +459,3 @@ function obtenerArticulo(slug) {
 
 window.RIGEL_DATA = { productos: productos, articulos: articulos };
 }());
-

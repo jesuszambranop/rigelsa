@@ -161,23 +161,23 @@
   var inicio = {
     es: {
       slides: [
-        { imagen: "todas-maquinas.jpg", alt: "Equipos de codificación Rigel", eyebrow: "SOLUCIONES PARA CADA PROCESO", titulo: "Codificación para cada necesidad", texto: "Ofrecemos soluciones portátiles, automáticas e industriales según tu producto, superficie y ritmo de producción.", boton: "Productos", enlace: "productos.html" },
-        { imagen: "cafe.jpg", alt: "Frasco con fecha, caducidad y lote impresos en la tapa", eyebrow: "ENVASES DE VIDRIO", titulo: "Fechas legibles en tus envases", texto: "Imprime en cualquier material de forma confiable y legible con nuestras tintas de alta adherencia para que tu producto cumpla las normativas vigentes.", boton: "Ver codificadoras", enlace: "productos.html?tipo=Codificadora" },
-        { imagen: "k600.jpg", alt: "Codificadora industrial K600", eyebrow: "PRODUCCIÓN INDUSTRIAL", titulo: "K600: codificación continua para líneas exigentes", texto: "Precisión y legibilidad en cada impresión.", boton: "Conoce la K600", enlace: "producto.html?slug=k600" },
-        { imagen: "cosmetica.jpg", alt: "Envases cosméticos con códigos impresos", eyebrow: "COSMÉTICA Y CUIDADO PERSONAL", titulo: "Trazabilidad que acompaña a tu marca", texto: "Consigue impresiones legibles y discretas en tubos, frascos y envases de múltiples materiales.", boton: "Explorar soluciones", enlace: "productos.html?tipo=Codificadora" },
-        { imagen: "banda.webp", alt: "Codificadora integrada a una banda transportadora", eyebrow: "AUTOMATIZACIÓN EN LÍNEA", titulo: "Codificación continua sobre banda transportadora", texto: "Optimiza tu flujo de trabajo y mejora la eficiencia de impresión y codificación.", boton: "Ver automatización", enlace: "productos.html?tipo=Accesorio" },
-        { imagen: "automatizacion.jpg", alt: "Sistema automático de codificación para huevos", eyebrow: "AUTOMATIZACIÓN", titulo: "Más velocidad, control y consistencia", texto: "Integramos codificación automática para líneas continuas y aplicaciones especializadas.", boton: "Ver automatización", enlace: "productos.html?tipo=Accesorio" }
+        { imagen: "equipos-codificacion-rigel.webp", alt: "Equipos Rigel de codificación portátil, automática e industrial", eyebrow: "SOLUCIONES PARA CADA PROCESO", titulo: "Codificación para cada necesidad", texto: "Ofrecemos soluciones portátiles, automáticas e industriales según tu producto, superficie y ritmo de producción.", boton: "Productos", enlace: "productos.html" },
+        { imagen: "codificacion-fechas-lotes-frasco-vidrio.webp", alt: "Frasco de vidrio con fecha de elaboración, caducidad y lote impresos en la tapa", eyebrow: "ENVASES DE VIDRIO", titulo: "Fechas legibles en tus envases", texto: "Imprime en cualquier material de forma confiable y legible con nuestras tintas de alta adherencia para que tu producto cumpla las normativas vigentes.", boton: "Ver codificadoras", enlace: "productos.html?tipo=Codificadora" },
+        { imagen: "codificadora-industrial-k600-linea-produccion.webp", alt: "Codificadora industrial K600 de Rigel para impresión continua en líneas de producción", eyebrow: "PRODUCCIÓN INDUSTRIAL", titulo: "K600: codificación continua para líneas exigentes", texto: "Precisión y legibilidad en cada impresión.", boton: "Conoce la K600", enlace: "producto.html?slug=k600" },
+        { imagen: "codificacion-envases-cosmeticos.webp", alt: "Envases cosméticos preparados para codificación de fechas y lotes", eyebrow: "COSMÉTICA Y CUIDADO PERSONAL", titulo: "Trazabilidad que acompaña a tu marca", texto: "Consigue impresiones legibles y discretas en tubos, frascos y envases de múltiples materiales.", boton: "Explorar soluciones", enlace: "productos.html?tipo=Codificadora" },
+        { imagen: "codificadora-banda-transportadora-envases.webp", alt: "Codificadora automática integrada a una banda transportadora de envases", eyebrow: "AUTOMATIZACIÓN EN LÍNEA", titulo: "Codificación continua sobre banda transportadora", texto: "Optimiza tu flujo de trabajo y mejora la eficiencia de impresión y codificación.", boton: "Ver automatización", enlace: "productos.html?tipo=Accesorio" },
+        { imagen: "codificadora-automatica-huevos.webp", alt: "Máquina automática para codificar fechas y lotes sobre huevos", eyebrow: "AUTOMATIZACIÓN", titulo: "Más velocidad, control y consistencia", texto: "Integramos codificación automática para líneas continuas y aplicaciones especializadas.", boton: "Ver automatización", enlace: "productos.html?tipo=Accesorio" }
       ],
       applicationsEyebrow: "APLICACIONES DE CODIFICACIÓN",
       applicationsTitle: "Información clara en cada producto",
       applicationsText: "Imprime fechas, lotes y datos variables sobre vidrio, metal, alimentos, empaques flexibles y productos farmacéuticos con una solución adaptada a tu proceso.",
       applicationsAlt: "Aplicaciones de codificación Rigel",
       applicationImages: [
-        { imagen: "bebidas.webp", alt: "Botellas de bebidas con fecha y lote impresos" },
-        { imagen: "latas.webp", alt: "Latas metálicas con datos de trazabilidad impresos" },
-        { imagen: "alimentos.webp", alt: "Alimento empacado con fecha y lote" },
-        { imagen: "panaderia.webp", alt: "Pan empacado con fecha de elaboración y caducidad" },
-        { imagen: "farmaceutica.webp", alt: "Empaque farmacéutico con fecha y lote impresos" }
+        { imagen: "codificacion-fechas-lotes-botellas.webp", alt: "Botellas de bebidas con fecha de elaboración y lote impresos" },
+        { imagen: "codificacion-trazabilidad-latas-metalicas.webp", alt: "Latas metálicas con fechas, lotes y datos de trazabilidad impresos" },
+        { imagen: "codificacion-fecha-lote-carne-envasada.webp", alt: "Carne envasada con fecha de elaboración, caducidad y lote impresos" },
+        { imagen: "codificacion-fecha-caducidad-pan.webp", alt: "Pan empacado con fecha de elaboración, caducidad y lote impresos" },
+        { imagen: "codificacion-lotes-envases-farmaceuticos.webp", alt: "Envases farmacéuticos con fecha de fabricación, vencimiento y lote impresos" }
       ],
       industrialAlt: "Codificadora industrial K600",
       industrialCaption: "Codificación industrial continua",
@@ -190,23 +190,23 @@
     },
     en: {
       slides: [
-        { imagen: "todas-maquinas.jpg", alt: "Rigel coding equipment", eyebrow: "SOLUTIONS FOR EVERY PROCESS", titulo: "Coding for every production need", texto: "We provide handheld, automatic and industrial solutions according to your product, material and production pace.", boton: "Products", enlace: "productos.html" },
-        { imagen: "cafe.jpg", alt: "Jar with printed production date, expiration date and batch on the lid", eyebrow: "GLASS CONTAINERS", titulo: "Readable dates on your containers", texto: "Print readable dates, batches and codes on lids and jars to maintain product traceability.", boton: "View coding printers", enlace: "productos.html?tipo=Codificadora" },
-        { imagen: "k600.jpg", alt: "K600 industrial coding printer", eyebrow: "INDUSTRIAL PRODUCTION", titulo: "K600: continuous coding for demanding lines", texto: "Precision and legibility in every print.", boton: "Discover the K600", enlace: "producto.html?slug=k600" },
-        { imagen: "cosmetica.jpg", alt: "Cosmetic containers with printed codes", eyebrow: "COSMETICS & PERSONAL CARE", titulo: "Traceability that supports your brand", texto: "Achieve readable and discreet prints on tubes, bottles and containers made of different materials.", boton: "Explore solutions", enlace: "productos.html?tipo=Codificadora" },
-        { imagen: "banda.webp", alt: "Coding printer integrated with a conveyor", eyebrow: "IN-LINE AUTOMATION", titulo: "Continuous coding on a conveyor", texto: "Optimize your workflow and improve printing and coding efficiency.", boton: "View automation", enlace: "productos.html?tipo=Accesorio" },
-        { imagen: "automatizacion.jpg", alt: "Automatic egg coding system", eyebrow: "AUTOMATION", titulo: "More speed, control and consistency", texto: "We integrate automatic coding for continuous lines and specialized applications.", boton: "View automation", enlace: "productos.html?tipo=Accesorio" }
+        { imagen: "equipos-codificacion-rigel.webp", alt: "Rigel handheld, automatic and industrial coding equipment", eyebrow: "SOLUTIONS FOR EVERY PROCESS", titulo: "Coding for every production need", texto: "We provide handheld, automatic and industrial solutions according to your product, material and production pace.", boton: "Products", enlace: "productos.html" },
+        { imagen: "codificacion-fechas-lotes-frasco-vidrio.webp", alt: "Glass jar with production date, expiration date and batch printed on the lid", eyebrow: "GLASS CONTAINERS", titulo: "Readable dates on your containers", texto: "Print readable dates, batches and codes on lids and jars to maintain product traceability.", boton: "View coding printers", enlace: "productos.html?tipo=Codificadora" },
+        { imagen: "codificadora-industrial-k600-linea-produccion.webp", alt: "Rigel K600 industrial coding printer for continuous production lines", eyebrow: "INDUSTRIAL PRODUCTION", titulo: "K600: continuous coding for demanding lines", texto: "Precision and legibility in every print.", boton: "Discover the K600", enlace: "producto.html?slug=k600" },
+        { imagen: "codificacion-envases-cosmeticos.webp", alt: "Cosmetic containers prepared for date and batch coding", eyebrow: "COSMETICS & PERSONAL CARE", titulo: "Traceability that supports your brand", texto: "Achieve readable and discreet prints on tubes, bottles and containers made of different materials.", boton: "Explore solutions", enlace: "productos.html?tipo=Codificadora" },
+        { imagen: "codificadora-banda-transportadora-envases.webp", alt: "Automatic coding printer integrated with a container conveyor", eyebrow: "IN-LINE AUTOMATION", titulo: "Continuous coding on a conveyor", texto: "Optimize your workflow and improve printing and coding efficiency.", boton: "View automation", enlace: "productos.html?tipo=Accesorio" },
+        { imagen: "codificadora-automatica-huevos.webp", alt: "Automatic machine for printing dates and batches on eggs", eyebrow: "AUTOMATION", titulo: "More speed, control and consistency", texto: "We integrate automatic coding for continuous lines and specialized applications.", boton: "View automation", enlace: "productos.html?tipo=Accesorio" }
       ],
       applicationsEyebrow: "CODING APPLICATIONS",
       applicationsTitle: "Clear information on every product",
       applicationsText: "Print dates, batches and variable data on glass, metal, food, flexible packaging and pharmaceutical products with a solution adapted to your process.",
       applicationsAlt: "Rigel coding applications",
       applicationImages: [
-        { imagen: "bebidas.webp", alt: "Beverage bottles with printed date and batch" },
-        { imagen: "latas.webp", alt: "Metal cans with printed traceability data" },
-        { imagen: "alimentos.webp", alt: "Packaged food with printed date and batch" },
-        { imagen: "panaderia.webp", alt: "Packaged bread with production and expiration dates" },
-        { imagen: "farmaceutica.webp", alt: "Pharmaceutical packaging with printed date and batch" }
+        { imagen: "codificacion-fechas-lotes-botellas.webp", alt: "Beverage bottles with printed production date and batch" },
+        { imagen: "codificacion-trazabilidad-latas-metalicas.webp", alt: "Metal cans with printed dates, batches and traceability data" },
+        { imagen: "codificacion-fecha-lote-carne-envasada.webp", alt: "Packaged meat with printed production date, expiration date and batch" },
+        { imagen: "codificacion-fecha-caducidad-pan.webp", alt: "Packaged bread with printed production date, expiration date and batch" },
+        { imagen: "codificacion-lotes-envases-farmaceuticos.webp", alt: "Pharmaceutical packaging with printed manufacturing date, expiration date and batch" }
       ],
       industrialAlt: "K600 industrial coding printer",
       industrialCaption: "Continuous industrial coding",
@@ -314,6 +314,101 @@
 
   function asset(ruta) { return String(ruta || "").replace(/^\//, ""); }
 
+  function atributosImagen(ruta) {
+    var dimensiones = (window.RIGEL_IMAGE_DIMENSIONS || {})[asset(ruta)];
+    return dimensiones ? ' width="' + dimensiones[0] + '" height="' + dimensiones[1] + '"' : "";
+  }
+
+  var altsProductoEs = {
+    m1: ["Codificadora portátil M1 de Rigel para imprimir fechas de caducidad, lotes y códigos", "Infografía de características de la codificadora portátil M1", "Codificadora M1 mostrando funciones para imprimir fechas, lotes, textos y códigos", "Codificadora M1 junto a materiales compatibles como cartón, vidrio, metal y plástico", "Kit de codificadora portátil M1 con caja, cargador y accesorios", "Codificadora M1 imprimiendo fecha y lote en una botella", "Codificadora M1 imprimiendo información en un empaque de medicamento", "Codificadora M1 imprimiendo fecha de caducidad en la tapa de un frasco"],
+    b15: ["Codificadora portátil Wi-Fi B15 para imprimir fechas, lotes y códigos", "Infografía de características de la codificadora portátil B15", "Codificadora B15 mostrando funciones para imprimir fechas, lotes, textos y códigos", "Codificadora B15 junto a materiales compatibles como vidrio, metal y plástico", "Kit de codificadora Wi-Fi B15 con caja, cargador y manual", "Codificadora B15 imprimiendo un logotipo sobre un frasco de vidrio", "Codificadora B15 imprimiendo un logotipo sobre un envase", "Codificadora B15 imprimiendo un código de barras sobre un envase", "Cartuchos de tinta compatibles con la codificadora B15"],
+    bt6205bl: ["Codificadora portátil BT6205BL para uso manual o automático", "Infografía de características de la codificadora BT6205BL", "Codificadora BT6205BL mostrando funciones para imprimir fechas, lotes, textos y códigos", "Codificadora BT6205BL junto a materiales compatibles para impresión", "Kit de codificadora BT6205BL con maletín, sensor y accesorios", "Codificadora BT6205BL imprimiendo lote sobre una caja de cartón", "Codificadora BT6205BL imprimiendo un logotipo sobre un frasco de vidrio", "Codificadora BT6205BL imprimiendo texto sobre una tubería plástica", "Cartuchos de tinta compatibles con la codificadora BT6205BL"],
+    bt6210bl: ["Codificadora portátil BT6210BL de 25,4 mm para fechas, lotes y códigos", "Infografía de características de la codificadora BT6210BL", "Codificadora BT6210BL mostrando funciones para imprimir fechas, lotes, textos y códigos", "Codificadora BT6210BL imprimiendo sobre una caja de cartón", "Kit de codificadora BT6210BL con maletín, sensor y accesorios", "Codificadora BT6210BL imprimiendo fecha y lote sobre una caja", "Codificadora BT6210BL imprimiendo un logotipo sobre un frasco de vidrio", "Codificadora BT6210BL imprimiendo texto sobre una tubería plástica", "Cartuchos de tinta compatibles con la codificadora BT6210BL"],
+    b45: ["Codificadora industrial B45 de gran formato para impresión manual o automática", "Infografía de características de la codificadora industrial B45", "Codificadora B45 mostrando funciones para imprimir fechas, lotes, textos y códigos", "Codificadora B45 junto a materiales compatibles para impresión industrial", "Kit de codificadora industrial B45 con maletín y accesorios", "Pantalla táctil y puerto USB de la codificadora B45", "Codificadora B45 imprimiendo texto de gran formato sobre cartón", "Codificadora B45 con sistema de doble cartucho de tinta", "Cartuchos de tinta compatibles con la codificadora industrial B45"],
+    b85: ["Codificadora industrial B85 de 100 mm para impresión de gran formato", "Infografía de características de la codificadora industrial B85", "Codificadora B85 mostrando funciones para imprimir fechas, lotes, textos y códigos", "Codificadora B85 junto a materiales compatibles para impresión industrial", "Codificadora B85 imprimiendo gráficos de gran formato sobre cartón", "Codificadora B85 marcando embalaje de gran formato", "Codificadora B85 imprimiendo fechas y lotes sobre una caja", "Cartuchos de tinta compatibles con la codificadora industrial B85"],
+    bb22b: ["Cartucho de tinta solvente BENTSAI BB22B para codificadoras de 12,7 mm"],
+    eb21b: ["Cartucho de tinta solvente BENTSAI EB21B para codificación industrial"],
+    eb22bl: ["Cartucho de tinta solvente BENTSAI EB22BL para codificadoras industriales"],
+    s70: ["Cartucho de tinta solvente S70 compatible con la codificadora portátil M1"],
+    sk10: ["Cartucho de tinta solvente SK10 compatible con la codificadora portátil M1"],
+    m2: ["Codificadora portátil M2 de Rigel para imprimir fechas, lotes y códigos", "Codificadora M2 imprimiendo fecha y lote sobre la tapa de un envase", "Codificadora M2 imprimiendo información sobre una botella"],
+    f61: ["Codificadora automática F61 para impresión continua en líneas de producción", "Codificadora F61 integrada a una línea de producción de envases", "Codificadora automática F61 trabajando sobre una banda transportadora"],
+    "banda-transportadora": ["Banda transportadora para automatizar la impresión de fechas y lotes", "Codificadora integrada a una banda transportadora de envases", "Sistema industrial de codificación automática sobre banda transportadora"],
+    "codificadora-huevos": ["Máquina codificadora automática para imprimir fechas y lotes sobre huevos", "Codificadora de huevos trabajando en una línea de producción", "Ejemplos de fechas y lotes impresos sobre huevos", "Muestras de codificación de fechas y lotes en huevos"],
+    g7: ["Codificadora automática de etiquetas G7 para fechas, lotes y códigos", "Pantalla de la codificadora de etiquetas G7 con fecha, lote y código de barras", "Sistema automático G7 para codificar y etiquetar productos"],
+    k600: ["Codificadora industrial K600 de tinta continua para líneas de producción", "Codificadora K600 imprimiendo códigos sobre latas en una línea", "Codificadora K600 imprimiendo información sobre cajas en movimiento", "Codificadora K600 marcando envases blancos en una línea de producción"]
+  };
+
+  var altsArticuloEs = {
+    "que-es-una-codificadora-fechadora": ["Codificadora fechadora portátil imprimiendo fechas y lotes sobre un envase", "Pantalla táctil de una codificadora con fecha de elaboración, vencimiento y lote"],
+    "fecha-elaboracion-vencimiento-productos": ["Productos empacados con fechas de elaboración y vencimiento impresas", "Consumidora revisando la fecha de caducidad de un producto en un supermercado"],
+    "beneficios-codificadora-fechadora-negocio": ["Operaria preparando envases para codificación de fechas y lotes", "Codificadora portátil junto a envases de vidrio, plástico y metal"],
+    "codificadora-ideal-para-tu-negocio": ["Codificadora portátil M1 con su empaque y accesorios", "Codificadora portátil Wi-Fi B15", "Codificadora manual y automática BT6205BL", "Codificadora industrial BT6210BL"],
+    "extender-vida-tinta": ["Cartucho de tinta BENTSAI BB22B para codificadoras portátiles"],
+    "agregar-textos-fechas-codigos": ["Codificadora BT6205BL imprimiendo textos, fechas y códigos sobre un frasco"],
+    "por-que-escoger-tinta-bentsai": ["Cartucho de tinta solvente BENTSAI BB22B", "Presentaciones de tintas BENTSAI para codificadoras"],
+    "codificacion-secuencial": ["Codificadora BT6210BL imprimiendo datos secuenciales sobre una caja"],
+    "codificacion-automatica": ["Codificadora BT6205BL imprimiendo automáticamente sobre una caja de cartón"]
+  };
+
+  function escaparAtributo(valor) {
+    return String(valor || "").replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  function altProducto(producto, indice) {
+    var opciones = altsProductoEs[producto.slug] || [];
+    if (lang === "es" && opciones[indice]) return opciones[indice];
+    if (indice === 0) return producto.nombre + (lang === "es" ? " para codificación de fechas, lotes y códigos" : " for date, batch and code printing");
+    return producto.nombre + (lang === "es" ? " — vista de aplicación " : " — application view ") + indice;
+  }
+
+  function altArticulo(articulo, indice) {
+    var opciones = altsArticuloEs[articulo.slug] || [];
+    if (lang === "es" && opciones[indice]) return opciones[indice];
+    return articulo.titulo + (indice ? (lang === "es" ? " — imagen explicativa " : " — explanatory image ") + indice : "");
+  }
+
+  var sitioPublico = "https://jesuszambranop.github.io/rigelsa/";
+
+  function urlPublica(ruta) {
+    return new URL(asset(ruta), sitioPublico).href;
+  }
+
+  function actualizarMeta(selector, atributo, valor) {
+    var meta = document.head.querySelector(selector);
+    if (!meta) {
+      meta = document.createElement("meta");
+      var partes = atributo.split("=");
+      meta.setAttribute(partes[0], partes[1]);
+      document.head.appendChild(meta);
+    }
+    meta.setAttribute("content", valor);
+  }
+
+  function actualizarSeoPagina(descripcion, imagen, rutaCanonica) {
+    actualizarMeta('meta[name="description"]', "name=description", descripcion);
+    actualizarMeta('meta[property="og:image"]', "property=og:image", urlPublica(imagen));
+    actualizarMeta('meta[name="twitter:image"]', "name=twitter:image", urlPublica(imagen));
+    actualizarMeta('meta[name="twitter:card"]', "name=twitter:card", "summary_large_image");
+    var canonical = document.head.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement("link");
+      canonical.rel = "canonical";
+      document.head.appendChild(canonical);
+    }
+    canonical.href = new URL(rutaCanonica, sitioPublico).href;
+  }
+
+  function agregarDatosEstructurados(id, datos) {
+    var anterior = document.getElementById(id);
+    if (anterior) anterior.remove();
+    var script = document.createElement("script");
+    script.id = id;
+    script.type = "application/ld+json";
+    script.textContent = JSON.stringify(datos);
+    document.head.appendChild(script);
+  }
+
   function conIdioma(ruta) {
     if (/^(https?:|mailto:|tel:)/.test(ruta)) return ruta;
     var hash = "";
@@ -348,7 +443,7 @@
   }
 
   function mapaPresencia() {
-    return '<div class="nosotros-mapa"><img src="assets/nosotros/mapa-america.webp" alt="' + texto.aboutMapAlt + '"><div class="mapa-etiquetas">' + presenciaMapa.map(function (pais) {
+    return '<div class="nosotros-mapa"><img src="assets/nosotros/mapa-america.webp" alt="' + texto.aboutMapAlt + '"' + atributosImagen("assets/nosotros/mapa-america.webp") + '><div class="mapa-etiquetas">' + presenciaMapa.map(function (pais) {
       return '<span class="mapa-etiqueta mapa-etiqueta-' + pais[1] + '">' + pais[0] + '</span>';
     }).join("") + '</div></div>';
   }
@@ -412,13 +507,13 @@
 
   function tarjetaProducto(producto) {
     return '<article class="tarjeta-producto"><div class="producto-cabecera"><span>' + producto.modelo + '</span></div>' +
-      '<a class="producto-imagen" href="' + enlaceProducto(producto.slug) + '"><img src="' + asset(producto.imagen) + '" alt="' + producto.nombre + '" loading="lazy"></a>' +
+      '<a class="producto-imagen" href="' + enlaceProducto(producto.slug) + '"><img src="' + asset(producto.imagen) + '" alt="' + escaparAtributo(altProducto(producto, 0)) + '"' + atributosImagen(producto.imagen) + ' loading="lazy" decoding="async"></a>' +
       '<p>' + producto.tipo + ' · ' + producto.familia + '</p><h2><a href="' + enlaceProducto(producto.slug) + '">' + producto.nombre + '</a></h2>' +
       '<div class="producto-enlace"><a href="' + enlaceProducto(producto.slug) + '">' + texto.viewFeatures + ' <span aria-hidden="true">→</span></a></div></article>';
   }
 
   function tarjetaArticulo(articulo) {
-    return '<article class="tarjeta-blog"><a class="blog-imagen" href="' + enlaceArticulo(articulo.slug) + '"><img src="' + asset(articulo.imagen) + '" alt="" loading="lazy"></a><p>' + articulo.categoria + '</p><h2><a href="' + enlaceArticulo(articulo.slug) + '">' + articulo.titulo + '</a></h2><span>' + articulo.extracto + '</span><a href="' + enlaceArticulo(articulo.slug) + '">' + texto.read + ' <b aria-hidden="true">→</b></a></article>';
+    return '<article class="tarjeta-blog"><a class="blog-imagen" href="' + enlaceArticulo(articulo.slug) + '"><img src="' + asset(articulo.imagen) + '" alt="' + escaparAtributo(altArticulo(articulo, 0)) + '"' + atributosImagen(articulo.imagen) + ' loading="lazy" decoding="async"></a><p>' + articulo.categoria + '</p><h2><a href="' + enlaceArticulo(articulo.slug) + '">' + articulo.titulo + '</a></h2><span>' + articulo.extracto + '</span><a href="' + enlaceArticulo(articulo.slug) + '">' + texto.read + ' <b aria-hidden="true">→</b></a></article>';
   }
 
   function iniciarHero() {
@@ -464,13 +559,13 @@
   }
 
   function seccionSoporte() {
-    return '<section class="seccion soporte-inicio"><div class="contenedor soporte-rejilla"><div class="soporte-visual"><img src="assets/soporte/soporte-tecnico-rigel.webp" alt="' + inicio.supportImageAlt + '" loading="lazy"></div><div class="soporte-contenido"><p class="eyebrow">' + inicio.supportEyebrow + '</p><h2>' + inicio.supportTitle + '</h2><p>' + inicio.supportText + '</p><a class="boton boton-azul" href="' + conIdioma("contacto.html") + '">' + inicio.supportButton + '</a></div></div></section>';
+    return '<section class="seccion soporte-inicio"><div class="contenedor soporte-rejilla"><div class="soporte-visual"><img src="assets/soporte/soporte-tecnico-rigel.webp" alt="' + inicio.supportImageAlt + '"' + atributosImagen("assets/soporte/soporte-tecnico-rigel.webp") + ' loading="lazy"></div><div class="soporte-contenido"><p class="eyebrow">' + inicio.supportEyebrow + '</p><h2>' + inicio.supportTitle + '</h2><p>' + inicio.supportText + '</p><a class="boton boton-azul" href="' + conIdioma("contacto.html") + '">' + inicio.supportButton + '</a></div></div></section>';
   }
 
   function renderInicio() {
     var slides = inicio.slides;
-    contenido.innerHTML = '<section class="hero" aria-roledescription="carousel" aria-label="' + texto.heroTitle + '"><div class="hero-pista">' + slides.map(function (slide, i) { return '<article class="hero-slide' + (i === 0 ? " hero-slide-activo" : "") + '" aria-hidden="' + (i !== 0) + '"' + (i === 0 ? '' : ' inert') + '><img src="assets/slides/nuevos/' + slide.imagen + '" alt="' + slide.alt + '" loading="' + (i === 0 ? 'eager' : 'lazy') + '"><div class="contenedor hero-contenido"><div class="hero-texto"><p class="eyebrow">' + slide.eyebrow + '</p><h1>' + slide.titulo + '</h1><p>' + slide.texto + '</p><a class="boton boton-azul" href="' + conIdioma(slide.enlace) + '">' + slide.boton + '</a></div></div></article>'; }).join("") + '</div><div class="hero-control" aria-label="' + (lang === "es" ? "Seleccionar diapositiva" : "Select slide") + '">' + slides.map(function (_, i) { return '<button type="button" class="' + (i === 0 ? "activo" : "") + '" aria-label="' + (lang === "es" ? "Mostrar diapositiva " : "Show slide ") + (i + 1) + '" aria-pressed="' + (i === 0) + '"></button>'; }).join("") + '</div></section>' +
-      '<section class="seccion inicio-presentacion"><div class="contenedor inicio-presentacion-grid"><div class="inicio-presentacion-texto"><p class="eyebrow">' + inicio.applicationsEyebrow + '</p><h1>' + inicio.applicationsTitle + '</h1><p>' + inicio.applicationsText + '</p><div class="inicio-acciones"><a class="boton boton-azul" href="' + conIdioma("productos.html") + '">' + texto.seeProducts + '</a><a class="boton boton-verde" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.quote + '</a></div></div><div class="aplicaciones-visual" aria-roledescription="carousel" aria-label="' + inicio.applicationsAlt + '">' + inicio.applicationImages.map(function (imagen, i) { return '<figure class="aplicaciones-slide' + (i === 0 ? ' aplicaciones-slide-activo' : '') + '" aria-hidden="' + (i !== 0) + '"><img src="assets/aplicaciones/' + imagen.imagen + '" alt="' + imagen.alt + '" loading="' + (i === 0 ? 'eager' : 'lazy') + '"></figure>'; }).join("") + '</div></div></section>' +
+    contenido.innerHTML = '<section class="hero" aria-roledescription="carousel" aria-label="' + texto.heroTitle + '"><div class="hero-pista">' + slides.map(function (slide, i) { var ruta = "assets/slides/nuevos/" + slide.imagen; return '<article class="hero-slide' + (i === 0 ? " hero-slide-activo" : "") + '" aria-hidden="' + (i !== 0) + '"' + (i === 0 ? '' : ' inert') + '><img src="' + ruta + '" alt="' + slide.alt + '"' + atributosImagen(ruta) + ' loading="' + (i === 0 ? 'eager' : 'lazy') + '" decoding="async"' + (i === 0 ? ' fetchpriority="high"' : '') + '><div class="contenedor hero-contenido"><div class="hero-texto"><p class="eyebrow">' + slide.eyebrow + '</p><h1>' + slide.titulo + '</h1><p>' + slide.texto + '</p><a class="boton boton-azul" href="' + conIdioma(slide.enlace) + '">' + slide.boton + '</a></div></div></article>'; }).join("") + '</div><div class="hero-control" aria-label="' + (lang === "es" ? "Seleccionar diapositiva" : "Select slide") + '">' + slides.map(function (_, i) { return '<button type="button" class="' + (i === 0 ? "activo" : "") + '" aria-label="' + (lang === "es" ? "Mostrar diapositiva " : "Show slide ") + (i + 1) + '" aria-pressed="' + (i === 0) + '"></button>'; }).join("") + '</div></section>' +
+      '<section class="seccion inicio-presentacion"><div class="contenedor inicio-presentacion-grid"><div class="inicio-presentacion-texto"><p class="eyebrow">' + inicio.applicationsEyebrow + '</p><h1>' + inicio.applicationsTitle + '</h1><p>' + inicio.applicationsText + '</p><div class="inicio-acciones"><a class="boton boton-azul" href="' + conIdioma("productos.html") + '">' + texto.seeProducts + '</a><a class="boton boton-verde" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.quote + '</a></div></div><div class="aplicaciones-visual" aria-roledescription="carousel" aria-label="' + inicio.applicationsAlt + '">' + inicio.applicationImages.map(function (imagen, i) { var ruta = "assets/aplicaciones/" + imagen.imagen; return '<figure class="aplicaciones-slide' + (i === 0 ? ' aplicaciones-slide-activo' : '') + '" aria-hidden="' + (i !== 0) + '"><img src="' + ruta + '" alt="' + imagen.alt + '"' + atributosImagen(ruta) + ' loading="' + (i === 0 ? 'eager' : 'lazy') + '"></figure>'; }).join("") + '</div></div></section>' +
       '<section class="franja-industrial"><video class="franja-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true"><source src="assets/video/ukcm-bucle.mp4" type="video/mp4"></video><div class="franja-degradado" aria-hidden="true"></div><div class="contenedor franja-contenido"><div class="franja-principal"><p class="eyebrow eyebrow-claro">' + texto.applicationsEyebrow + '</p><h2>' + texto.applicationsTitle + '</h2><a class="boton boton-blanco" href="' + conIdioma("productos.html") + '">' + texto.seeProducts + '</a></div><div class="franja-opciones"><div><h3>' + texto.portable + '</h3><p>' + texto.portableText + '</p></div><div><h3>' + texto.automatic + '</h3><p>' + texto.automaticText + '</p></div></div></div></section>' +
       '<section class="seccion blog-inicio"><div class="contenedor"><div class="titulo-fila titulo-fila-compacta"><div><p class="eyebrow">' + texto.knowledge + '</p><h2>' + texto.guides + '</h2></div><a class="enlace-flecha" href="' + conIdioma("blog.html") + '">' + texto.allArticles + ' →</a></div><div class="rejilla-blog">' + articulos.slice(0, 3).map(tarjetaArticulo).join("") + '</div></div></section>' +
       '<section class="cta-final"><div class="contenedor"><div><p class="eyebrow eyebrow-claro">WHATSAPP</p><h2>' + texto.quote + '</h2></div><a class="boton boton-blanco" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.contactUs + '</a></div></section>' +
@@ -570,14 +665,29 @@
     if (!producto) { noEncontrado(texto.backProducts, conIdioma("productos.html")); return; }
     document.title = producto.nombre + " | Rigel";
     var galeria = [producto.imagen].concat(producto.galeria || []).filter(function (ruta, i, lista) { return lista.indexOf(ruta) === i; });
+    var rutaProducto = "producto.html?slug=" + encodeURIComponent(producto.slug) + "&lang=" + lang;
+    actualizarSeoPagina(producto.descripcion, producto.imagen, rutaProducto);
+    agregarDatosEstructurados("datos-producto", {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      name: producto.nombre,
+      description: producto.descripcion,
+      image: galeria.map(urlPublica),
+      brand: { "@type": "Brand", name: "Rigel" },
+      manufacturer: { "@type": "Organization", name: "Rigel" },
+      model: producto.modelo,
+      sku: producto.modelo,
+      category: producto.tipo + " · " + producto.familia,
+      url: new URL(rutaProducto, sitioPublico).href
+    });
     var relacionados = (producto.compatibles || []).map(function (modelo) { return productos.find(function (item) { return item.modelo.toLowerCase() === modelo.toLowerCase(); }); }).filter(Boolean);
     if (!relacionados.length) relacionados = productos.filter(function (item) { return item.tipo === producto.tipo && item.slug !== producto.slug; }).slice(0, 3);
-    contenido.innerHTML = '<div class="contenedor migas"><a href="' + conIdioma("index.html") + '">' + texto.breadcrumbHome + '</a><span>›</span><a href="' + conIdioma("productos.html") + '">' + texto.breadcrumbProducts + '</a><span>›</span><strong>' + producto.modelo + '</strong></div><section class="contenedor producto-hero"><div><div class="galeria-principal"><img id="imagen-producto" src="' + asset(galeria[0]) + '" alt="' + producto.nombre + '"></div>' + (galeria.length > 1 ? '<div class="galeria-miniaturas">' + galeria.map(function (imagen, i) { return '<button type="button" data-imagen="' + asset(imagen) + '" class="' + (i === 0 ? "activo" : "") + '"><img src="' + asset(imagen) + '" alt=""></button>'; }).join("") + '</div>' : "") + '</div><div class="producto-resumen"><p class="eyebrow">' + producto.tipo.toUpperCase() + ' · ' + producto.familia.toUpperCase() + '</p><h1>' + producto.nombre + '</h1><p class="producto-intro">' + producto.descripcion + '</p><ul class="lista-destacados">' + producto.destacados.map(function (item) { return '<li>' + item + '</li>'; }).join("") + '</ul><div class="producto-acciones"><a class="boton boton-verde" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.consultProduct + '</a>' + (producto.ficha ? '<a class="boton boton-contorno" href="' + asset(producto.ficha) + '" target="_blank">' + texto.sheet + '</a>' : "") + '</div></div></section>' +
+    contenido.innerHTML = '<div class="contenedor migas"><a href="' + conIdioma("index.html") + '">' + texto.breadcrumbHome + '</a><span>›</span><a href="' + conIdioma("productos.html") + '">' + texto.breadcrumbProducts + '</a><span>›</span><strong>' + producto.modelo + '</strong></div><section class="contenedor producto-hero"><div><div class="galeria-principal"><img id="imagen-producto" src="' + asset(galeria[0]) + '" alt="' + escaparAtributo(altProducto(producto, 0)) + '"' + atributosImagen(galeria[0]) + ' decoding="async"></div>' + (galeria.length > 1 ? '<div class="galeria-miniaturas">' + galeria.map(function (imagen, i) { var descripcion = altProducto(producto, i); return '<button type="button" data-imagen="' + asset(imagen) + '" data-alt="' + escaparAtributo(descripcion) + '" class="' + (i === 0 ? "activo" : "") + '" aria-label="' + escaparAtributo((lang === "es" ? "Mostrar imagen: " : "Show image: ") + descripcion) + '"><img src="' + asset(imagen) + '" alt=""' + atributosImagen(imagen) + ' loading="lazy" decoding="async"></button>'; }).join("") + '</div>' : "") + '</div><div class="producto-resumen"><p class="eyebrow">' + producto.tipo.toUpperCase() + ' · ' + producto.familia.toUpperCase() + '</p><h1>' + producto.nombre + '</h1><p class="producto-intro">' + producto.descripcion + '</p><ul class="lista-destacados">' + producto.destacados.map(function (item) { return '<li>' + item + '</li>'; }).join("") + '</ul><div class="producto-acciones"><a class="boton boton-verde" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.consultProduct + '</a>' + (producto.ficha ? '<a class="boton boton-contorno" href="' + asset(producto.ficha) + '" target="_blank">' + texto.sheet + '</a>' : "") + '</div></div></section>' +
       '<section class="seccion producto-detalles"><div class="contenedor detalles-rejilla"><div><p class="eyebrow">' + texto.information + '</p><h2>' + texto.features + '</h2><p>' + producto.resumen + '</p>' + (producto.incluye && producto.incluye.length ? '<div class="incluye"><h3>' + texto.includes + '</h3><ul>' + producto.incluye.map(function (item) { return '<li>' + item + '</li>'; }).join("") + '</ul></div>' : "") + '</div><dl class="tabla-especificaciones">' + producto.especificaciones.map(function (fila) { return '<div><dt>' + fila[0] + '</dt><dd>' + fila[1] + '</dd></div>'; }).join("") + '</dl></div></section>' +
-      (producto.video ? '<section class="seccion producto-video"><div class="contenedor"><p class="eyebrow">' + texto.demonstration + '</p><h2>' + texto.watchWorking + '</h2><a class="video-enlace" href="' + youtubeDirecto(producto.video) + '" target="_blank" rel="noreferrer"><div><img src="' + asset(producto.imagen) + '" alt=""><span aria-hidden="true">▶</span></div><strong>' + texto.youtube + '</strong></a></div></section>' : "") +
+      (producto.video ? '<section class="seccion producto-video"><div class="contenedor"><p class="eyebrow">' + texto.demonstration + '</p><h2>' + texto.watchWorking + '</h2><a class="video-enlace" href="' + youtubeDirecto(producto.video) + '" target="_blank" rel="noreferrer"><div><img src="' + asset(producto.imagen) + '" alt=""' + atributosImagen(producto.imagen) + '><span aria-hidden="true">▶</span></div><strong>' + texto.youtube + '</strong></a></div></section>' : "") +
       (relacionados.length ? '<section class="seccion relacionados"><div class="contenedor"><p class="eyebrow">' + texto.related + '</p><h2>' + texto.completeSolution + '</h2><div class="rejilla-productos">' + relacionados.slice(0, 3).map(tarjetaProducto).join("") + '</div></div></section>' : "");
     var principal = document.getElementById("imagen-producto");
-    Array.prototype.forEach.call(document.querySelectorAll("[data-imagen]"), function (boton) { boton.addEventListener("click", function () { principal.src = boton.getAttribute("data-imagen"); Array.prototype.forEach.call(document.querySelectorAll("[data-imagen]"), function (b) { b.classList.remove("activo"); }); boton.classList.add("activo"); }); });
+    Array.prototype.forEach.call(document.querySelectorAll("[data-imagen]"), function (boton) { boton.addEventListener("click", function () { principal.src = boton.getAttribute("data-imagen"); principal.alt = boton.getAttribute("data-alt") || producto.nombre; principal.removeAttribute("width"); principal.removeAttribute("height"); Array.prototype.forEach.call(document.querySelectorAll("[data-imagen]"), function (b) { b.classList.remove("activo"); }); boton.classList.add("activo"); }); });
   }
 
   function renderBlog() {
@@ -590,9 +700,22 @@
     if (!articulo) { noEncontrado(texto.backBlog, conIdioma("blog.html")); return; }
     document.title = articulo.titulo + " | Rigel";
     var imagenes = articulo.imagenes || [];
-    var secciones = articulo.secciones.map(function (seccion, indice) { return '<section>' + (seccion.titulo ? '<h2>' + seccion.titulo + '</h2>' : "") + (seccion.parrafos || []).map(function (p) { return '<p>' + p + '</p>'; }).join("") + (seccion.puntos ? '<div class="puntos-articulo">' + seccion.puntos.map(function (p) { return '<div><h3>' + p.titulo + '</h3><p>' + p.texto + '</p></div>'; }).join("") + '</div>' : "") + (imagenes[indice] ? '<img src="' + asset(imagenes[indice]) + '" alt="">' : "") + '</section>'; }).join("");
+    var rutaArticulo = "articulo.html?slug=" + encodeURIComponent(articulo.slug) + "&lang=" + lang;
+    actualizarSeoPagina(articulo.extracto, articulo.imagen, rutaArticulo);
+    agregarDatosEstructurados("datos-articulo", {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      headline: articulo.titulo,
+      description: articulo.extracto,
+      image: [articulo.imagen].concat(imagenes).map(urlPublica),
+      author: { "@type": "Organization", name: "Rigel" },
+      publisher: { "@type": "Organization", name: "Rigel", logo: { "@type": "ImageObject", url: urlPublica("assets/brand/rigel-horizontal.png") } },
+      inLanguage: lang,
+      mainEntityOfPage: new URL(rutaArticulo, sitioPublico).href
+    });
+    var secciones = articulo.secciones.map(function (seccion, indice) { return '<section>' + (seccion.titulo ? '<h2>' + seccion.titulo + '</h2>' : "") + (seccion.parrafos || []).map(function (p) { return '<p>' + p + '</p>'; }).join("") + (seccion.puntos ? '<div class="puntos-articulo">' + seccion.puntos.map(function (p) { return '<div><h3>' + p.titulo + '</h3><p>' + p.texto + '</p></div>'; }).join("") + '</div>' : "") + (imagenes[indice] ? '<img src="' + asset(imagenes[indice]) + '" alt="' + escaparAtributo(altArticulo(articulo, indice + 1)) + '"' + atributosImagen(imagenes[indice]) + ' loading="lazy" decoding="async">' : "") + '</section>'; }).join("");
     var otros = articulos.filter(function (item) { return item.slug !== articulo.slug; }).slice(0, 3);
-    contenido.innerHTML = '<article><header class="contenedor articulo-cabecera"><p class="eyebrow">' + articulo.categoria.toUpperCase() + '</p><h1>' + articulo.titulo + '</h1><p>' + articulo.extracto + '</p></header><div class="contenedor articulo-portada"><img src="' + asset(articulo.imagen) + '" alt="' + articulo.titulo + '"></div><div class="contenedor articulo-cuerpo">' + secciones + (articulo.video ? '<section><h2>Video</h2><a class="boton boton-azul" href="' + youtubeDirecto(articulo.video) + '" target="_blank" rel="noreferrer">' + texto.youtube + '</a></section>' : "") + '<aside class="articulo-cta"><p class="eyebrow">' + texto.needAdvice + '</p><h2>' + texto.findPrinter + '</h2><p>' + texto.findPrinterText + '</p><div><a class="boton boton-azul" href="' + conIdioma("productos.html") + '">' + texto.seeProducts + '</a><a class="boton boton-verde" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.contactUs + '</a></div></aside></div></article><section class="seccion otros-articulos"><div class="contenedor"><p class="eyebrow">' + texto.keepReading + '</p><h2>' + texto.otherArticles + '</h2><div class="rejilla-blog">' + otros.map(tarjetaArticulo).join("") + '</div></div></section>';
+    contenido.innerHTML = '<article><header class="contenedor articulo-cabecera"><p class="eyebrow">' + articulo.categoria.toUpperCase() + '</p><h1>' + articulo.titulo + '</h1><p>' + articulo.extracto + '</p></header><div class="contenedor articulo-portada"><img src="' + asset(articulo.imagen) + '" alt="' + escaparAtributo(altArticulo(articulo, 0)) + '"' + atributosImagen(articulo.imagen) + ' decoding="async"></div><div class="contenedor articulo-cuerpo">' + secciones + (articulo.video ? '<section><h2>Video</h2><a class="boton boton-azul" href="' + youtubeDirecto(articulo.video) + '" target="_blank" rel="noreferrer">' + texto.youtube + '</a></section>' : "") + '<aside class="articulo-cta"><p class="eyebrow">' + texto.needAdvice + '</p><h2>' + texto.findPrinter + '</h2><p>' + texto.findPrinterText + '</p><div><a class="boton boton-azul" href="' + conIdioma("productos.html") + '">' + texto.seeProducts + '</a><a class="boton boton-verde" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.contactUs + '</a></div></aside></div></article><section class="seccion otros-articulos"><div class="contenedor"><p class="eyebrow">' + texto.keepReading + '</p><h2>' + texto.otherArticles + '</h2><div class="rejilla-blog">' + otros.map(tarjetaArticulo).join("") + '</div></div></section>';
   }
 
   function renderNosotros() {
@@ -660,9 +783,17 @@
   function protegerImagenes() {
     var bloquearDescargaRapida = function (evento) { evento.preventDefault(); };
     Array.prototype.forEach.call(document.querySelectorAll("img"), function (imagen) {
+      var completarDimensiones = function () {
+        if (!imagen.naturalWidth || !imagen.naturalHeight) return;
+        imagen.setAttribute("width", imagen.naturalWidth);
+        imagen.setAttribute("height", imagen.naturalHeight);
+      };
+      imagen.setAttribute("decoding", "async");
       imagen.setAttribute("draggable", "false");
+      imagen.addEventListener("load", completarDimensiones);
       imagen.addEventListener("dragstart", bloquearDescargaRapida);
       imagen.addEventListener("contextmenu", bloquearDescargaRapida);
+      completarDimensiones();
     });
   }
 
