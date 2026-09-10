@@ -71,7 +71,7 @@ var xml = [
 pages.forEach(function (page) {
   xml.push("  <url>");
   xml.push("    <loc>" + escapeXml(absolute(page.loc)) + "</loc>");
-  xml.push("    <lastmod>2026-09-09</lastmod>");
+  xml.push("    <lastmod>2026-09-10</lastmod>");
   unique(page.images).forEach(function (image) {
     xml.push("    <image:image>");
     xml.push("      <image:loc>" + escapeXml(absolute(image)) + "</image:loc>");

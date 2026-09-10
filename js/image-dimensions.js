@@ -92,6 +92,7 @@
     "assets/productos/m1/galeria-5.webp": [4500, 3000],
     "assets/productos/m1/galeria-6.webp": [4500, 3000],
     "assets/productos/m1/galeria-7.webp": [4500, 3000],
+    "assets/productos/m2/codificadora-portatil-m2-pantalla-fecha-caducidad.webp": [1402, 1122],
     "assets/productos/m2/codificadora-portatil-m2-rigel.webp": [492, 512],
     "assets/productos/m2/galeria-1.webp": [365, 243],
     "assets/productos/m2/galeria-2.webp": [365, 243],

@@ -331,12 +331,16 @@
     eb22bl: ["Cartucho de tinta solvente BENTSAI EB22BL para codificadoras industriales"],
     s70: ["Cartucho de tinta solvente S70 compatible con la codificadora portátil M1"],
     sk10: ["Cartucho de tinta solvente SK10 compatible con la codificadora portátil M1"],
-    m2: ["Codificadora portátil M2 de Rigel para imprimir fechas, lotes y códigos", "Codificadora M2 imprimiendo fecha y lote sobre la tapa de un envase", "Codificadora M2 imprimiendo información sobre una botella"],
+    m2: ["Codificadora portátil M2 con pantalla táctil mostrando una fecha de caducidad", "Codificadora portátil M2 de Rigel para imprimir fechas, lotes y códigos", "Codificadora M2 imprimiendo fecha y lote sobre la tapa de un envase", "Codificadora M2 imprimiendo información sobre una botella"],
     f61: ["Codificadora automática F61 para impresión continua en líneas de producción", "Codificadora F61 integrada a una línea de producción de envases", "Codificadora automática F61 trabajando sobre una banda transportadora"],
     "banda-transportadora": ["Banda transportadora para automatizar la impresión de fechas y lotes", "Codificadora integrada a una banda transportadora de envases", "Sistema industrial de codificación automática sobre banda transportadora"],
     "codificadora-huevos": ["Máquina codificadora automática para imprimir fechas y lotes sobre huevos", "Codificadora de huevos trabajando en una línea de producción", "Ejemplos de fechas y lotes impresos sobre huevos", "Muestras de codificación de fechas y lotes en huevos"],
     g7: ["Codificadora automática de etiquetas G7 para fechas, lotes y códigos", "Pantalla de la codificadora de etiquetas G7 con fecha, lote y código de barras", "Sistema automático G7 para codificar y etiquetar productos"],
     k600: ["Codificadora industrial K600 de tinta continua para líneas de producción", "Codificadora K600 imprimiendo códigos sobre latas en una línea", "Codificadora K600 imprimiendo información sobre cajas en movimiento", "Codificadora K600 marcando envases blancos en una línea de producción"]
+  };
+
+  var altsProductoEn = {
+    m2: ["M2 handheld coding printer with touchscreen showing an expiration date", "Rigel M2 handheld printer for dates, batches and codes", "M2 coding printer printing a date and batch on a container lid", "M2 coding printer printing information on a bottle"]
   };
 
   var altsArticuloEs = {
@@ -357,7 +361,9 @@
 
   function altProducto(producto, indice) {
     var opciones = altsProductoEs[producto.slug] || [];
+    var opcionesEn = altsProductoEn[producto.slug] || [];
     if (lang === "es" && opciones[indice]) return opciones[indice];
+    if (lang === "en" && opcionesEn[indice]) return opcionesEn[indice];
     if (indice === 0) return producto.nombre + (lang === "es" ? " para codificación de fechas, lotes y códigos" : " for date, batch and code printing");
     return producto.nombre + (lang === "es" ? " — vista de aplicación " : " — application view ") + indice;
   }

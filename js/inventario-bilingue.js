@@ -99,8 +99,8 @@
       disponibilidad: "disponible", disponibilidadTexto: "Disponible",
       resumen: "Codificadora portátil compacta con pantalla táctil y hasta seis líneas de impresión.",
       descripcion: "Equipo manual ligero para imprimir fechas, lotes, textos, logotipos y códigos sobre superficies planas, curvas, rugosas y espacios reducidos.",
-      imagen: "/assets/productos/m2/codificadora-portatil-m2-rigel.webp",
-      galeria: ["/assets/productos/m2/galeria-1.webp", "/assets/productos/m2/galeria-2.webp"],
+      imagen: "/assets/productos/m2/codificadora-portatil-m2-pantalla-fecha-caducidad.webp",
+      galeria: ["/assets/productos/m2/codificadora-portatil-m2-rigel.webp", "/assets/productos/m2/galeria-1.webp", "/assets/productos/m2/galeria-2.webp"],
       altura: "12,7 mm", alturaFiltro: "12,7 mm",
       destacados: ["Pantalla táctil de 2,4 pulgadas", "De 1 a 6 líneas", "Resolución de 300 a 600 DPI", "Peso de 185 g"],
       especificaciones: [
