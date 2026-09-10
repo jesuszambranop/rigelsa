@@ -270,7 +270,7 @@ p { line-height: 1.65; }
 .nosotros-presentacion { padding: 72px 0 82px; background: white; }
 .nosotros-rejilla { display: grid; grid-template-columns: 1.08fr .92fr; gap: clamp(54px, 7vw, 105px); align-items: center; }
 .nosotros-mapa { position: relative; width: 100%; max-width: 600px; margin-inline: auto; }
-.nosotros-mapa > img { width: 100%; display: block; object-fit: contain; }
+.nosotros-mapa > img { width: 100%; height: auto; display: block; object-fit: contain; }
 .mapa-etiquetas { position: absolute; inset: 0; color: var(--azul); font-size: clamp(10px, 1.1vw, 14px); font-weight: 800; }
 .mapa-etiqueta { position: absolute; display: block; white-space: nowrap; transform: translateY(-50%); text-shadow: 0 1px 3px white, 0 -1px 3px white; }
 .mapa-etiqueta-mexico { top: 21.2%; left: 24.5%; }
