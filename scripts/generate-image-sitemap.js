@@ -25,6 +25,16 @@ var homeImages = [
   "assets/aplicaciones/codificacion-lotes-envases-farmaceuticos.webp",
   "assets/soporte/soporte-tecnico-rigel.webp"
 ];
+var inkSurfaceImages = [
+  "assets/superficies/codificacion-caja-carton.webp",
+  "assets/superficies/codificacion-frasco-vidrio.webp",
+  "assets/superficies/codificacion-envase-plastico.webp",
+  "assets/superficies/codificacion-lata-aluminio.webp",
+  "assets/superficies/codificacion-cable-plastico.webp",
+  "assets/superficies/codificacion-madera.webp",
+  "assets/superficies/codificacion-empaque-metalizado.webp"
+];
+var glassInkModel = data.productos.some(function (product) { return product.modelo === "SK11"; }) ? "SK11" : "SK10";
 
 function absolute(relative) {
   return new URL(String(relative).replace(/^\//, ""), site).href;
@@ -50,9 +60,15 @@ var pages = [
 ];
 
 data.productos.forEach(function (product) {
+  var productImages = [product.imagen].concat(product.galeria || []);
+  if (product.tipo === "Tinta") {
+    productImages = productImages.concat(inkSurfaceImages.filter(function (image) {
+      return image.indexOf("frasco-vidrio") === -1 || product.modelo === glassInkModel;
+    }));
+  }
   pages.push({
     loc: "producto.html?slug=" + encodeURIComponent(product.slug) + "&lang=es",
-    images: [product.imagen].concat(product.galeria || [])
+    images: productImages
   });
 });
 
@@ -71,7 +87,7 @@ var xml = [
 pages.forEach(function (page) {
   xml.push("  <url>");
   xml.push("    <loc>" + escapeXml(absolute(page.loc)) + "</loc>");
-  xml.push("    <lastmod>2026-09-10</lastmod>");
+  xml.push("    <lastmod>2026-09-14</lastmod>");
   unique(page.images).forEach(function (image) {
     xml.push("    <image:image>");
     xml.push("      <image:loc>" + escapeXml(absolute(image)) + "</image:loc>");

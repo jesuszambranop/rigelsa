@@ -104,6 +104,13 @@
     "assets/slides/nuevos/codificadora-banda-transportadora-envases.webp": [2793, 1204],
     "assets/slides/nuevos/codificadora-industrial-k600-linea-produccion.webp": [2793, 1204],
     "assets/slides/nuevos/equipos-codificacion-rigel.webp": [1911, 823],
-    "assets/soporte/soporte-tecnico-rigel.webp": [1200, 1200]
+    "assets/soporte/soporte-tecnico-rigel.webp": [1200, 1200],
+    "assets/superficies/codificacion-caja-carton.webp": [1254, 1254],
+    "assets/superficies/codificacion-frasco-vidrio.webp": [1254, 1254],
+    "assets/superficies/codificacion-envase-plastico.webp": [1254, 1254],
+    "assets/superficies/codificacion-lata-aluminio.webp": [1254, 1254],
+    "assets/superficies/codificacion-cable-plastico.webp": [1254, 1254],
+    "assets/superficies/codificacion-madera.webp": [1254, 1254],
+    "assets/superficies/codificacion-empaque-metalizado.webp": [1254, 1254]
   };
 }());
